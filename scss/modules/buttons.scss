@@ -1,0 +1,16 @@
+// buttons
+
+
+//footer buttons
+
+.footer .ui-btn{
+	width: 22%;
+	text-shadow: none !important;
+}
+
+#current{
+	color: white;
+	border: none;
+	background-color: darken($gather-dark, 5%);
+	box-shadow: none;
+}

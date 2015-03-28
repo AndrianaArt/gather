@@ -1,0 +1,72 @@
+// Remove all jQuery Mobile Text shadow shenanegans
+html{
+	height: 100%;
+}
+
+html, body, .ui-header, .ui-title, .footer, form, input, label {
+	text-shadow: none !important;
+	height: auto;
+}
+
+//mobile base styles
+.top img {
+	float: right;
+	margin: 5px;
+	opacity: .5;
+}
+
+br {
+	clear: both;
+}
+
+.diet {
+	float: left;
+	margin: 5px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.searchbar{
+	background-color: $gather-dark;
+	padding: 30px;
+	margin: -20px -20px 0 -20px;
+	border-bottom-style: outset;
+}
+
+form h2 {
+	margin-top: -10px;
+	color: white;
+}
+
+.product {
+	padding: 15px;
+	margin: 10px;
+	background-color: white;
+	border-radius: .3em;
+}
+
+.product h4{
+	margin-top: -5px;
+}
+
+.product img{
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.footer{
+	background-color: $gather-dark !important;
+	height: 50px;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	padding-left: 5px;
+}
+
+.footer p {
+  font-weight: 400;
+  text-align: center;
+}

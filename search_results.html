@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gather Product Search | Search Results</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="js/themes/gather.min.css" />
+  <link rel="stylesheet" href="js/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+  <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+</head>
+
+<body>
+<!--Start of first Page-->
+	<div data-role="page" data-theme="a" id="one">
+    <div data-role="header" data-position="inline">
+      <h1>Farmer's Food Market</h1>
+    </div><!-- /header-->
+
+    <div data-role="content">
+      <div class="searchbar"> 
+       <form>
+        <input type="search" id="search" placeholder="Product name..." />
+        <div id="accordion">
+        <h3>Refine Search</h3>
+          <div>
+          <p>Dietary Need:</p>
+          <select>
+            <option value="#">Vegan</option>
+            <option value="#">Vegetarian</option>
+            <option value="#">Gluten Free</option>
+            <option value="#">Dairy Free</option>
+            <option value="#">Organic</option>
+            <option value="#">Sugar Free</option>
+            <option value="#">Raw</option>
+            <option value="#">Wheat Free</option>
+          </select>
+          <p>Department:</p>
+          <select>
+            <option value="#">Bakery</option>
+            <option value="#">Grocery</option>
+            <option value="#">Produce</option>
+            <option value="#">Meat</option>
+            <option value="#">Seafood</option>
+            <option value="#">Prepared Foods</option>
+            <option value="#">Specialty</option>
+            <option value="#">Coffee &amp; Tea</option>
+          </select>
+         </form>
+         </div>
+       </div> <!-- end of accordion -->
+      </div> <!-- end of search bar -->
+
+      <div class="product">
+        <img src="img/place.png" alt="placeholder img">
+        <h4>Product Name</h4>
+        <p>Price $</p>
+        <p>Aisle Number</p>
+        <a href="#">Location in Store</a>
+        <p>Product description</p>
+      </div>
+
+      <div class="product">
+        <img src="img/place.png" alt="placeholder img">
+        <h4>Product Name</h4>
+        <p>Price $</p>
+        <p>Aisle Number</p>
+        <a href="#">Location in Store</a>
+        <p>Product description</p>
+      </div>
+
+      <div class="product">
+        <img src="img/place.png" alt="placeholder img">
+        <h4>Product Name</h4>
+        <p>Price $</p>
+        <p>Aisle Number</p>
+        <a href="#">Location in Store</a>
+        <p>Product description</p>
+      </div>
+
+
+    </div><!-- /content-->
+
+    <div class="footer" data-role="footer">
+      <a href="#one" id="current">Search</a>
+      <a href="#two" data-transition="slide">Scan</a>
+      <a href="#three" data-transition="slide">Store Map</a>
+    </div><!-- /footer-->
+  </div><!-- /page one-->
+
+
+<!--Scan Page-->
+	<div data-role="page" id="two">
+	
+	<div data-role="header">
+	 <h1>Farmer's Food Market</h1>
+	</div><!-- /header-->
+
+	<div data-role="content">
+	 <img src="img/barcode_mockup.png" alt="barcode page placeholder">
+	</div><!-- /content-->
+
+	<div class="footer" data-role="footer">
+    <a href="#one" data-direction="reverse" data-transition="slide">Search</a>
+    <a href="#two" id="current">Scan</a>
+    <a href="#three" data-transition="slide">Store Map</a>
+	</div><!-- /footer-->
+
+	</div><!-- /page two-->
+
+
+<!--Map Page-->
+<div data-role="page" id="three">
+  
+  <div data-role="header">
+    <h1>Farmer's Food Market</h1>
+  </div><!-- /header-->
+
+  <div data-role="content">
+    <form>
+        <input type="search" id="search" placeholder="Product name..." />
+    </form>
+    <img src="img/storemap_full.png" alt="store map placeholder">
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer">
+    <a href="#one" data-direction="reverse" data-transition="slide">Search</a>
+    <a href="#two" data-direction="reverse" data-transition="slide">Scan</a>
+    <a href="#three" id="current">Store Map</a>
+  </div><!-- /footer-->
+
+</div><!-- /page three-->
+
+  <script>
+    $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+  </script>
+
+</body>
+</html>

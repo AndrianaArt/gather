@@ -1,0 +1,21 @@
+// Typography 
+
+body, .footer {
+	font-family: 'Open Sans', sans-serif;
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: $gather-dark;
+		font-weight: 300;
+	}
+	h1{
+		color: white;
+	}
+	h4{
+		font-weight: 700;
+		color: $gather-accent;
+	}
+}
+
+h1{
+	color: $gather-dark !important;
+}
