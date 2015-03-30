@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/false_viewfinder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25956,
+		"inputAbbreviatedPath": "\/img\/false_viewfinder.png",
+		"outputAbbreviatedPath": "\/img\/false_viewfinder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo_icon_bw.png": {
 		"fileType": 32768,
 		"ignore": 0,

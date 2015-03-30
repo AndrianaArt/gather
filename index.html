@@ -69,32 +69,18 @@
             </fieldset>
           
           <div>
-            <fieldset>
-              <legend>department:</legend>
-              <input type="checkbox" name="checkbox-1a" id="checkbox-1a" class="custom">
-              <label for="checkbox-1a">bakery</label>
-              
-              <input type="checkbox" name="checkbox-2a" id="checkbox-2a" class="custom">
-              <label for="checkbox-2a">grocery</label>
-              
-              <input type="checkbox" name="checkbox-3a" id="checkbox-3a" class="custom">
-              <label for="checkbox-3a">produce</label>
-              
-              <input type="checkbox" name="checkbox-4a" id="checkbox-4a" class="custom">
-              <label for="checkbox-4a">meat</label>
-              
-              <input type="checkbox" name="checkbox-5a" id="checkbox-5a" class="custom">
-              <label for="checkbox-5a">seafood</label>
-              
-              <input type="checkbox" name="checkbox-6a" id="checkbox-6a" class="custom">
-              <label for="checkbox-6a">prepared foods</label>
-              
-              <input type="checkbox" name="checkbox-7a" id="checkbox-7a" class="custom">
-              <label for="checkbox-7a">specialty</label>
-              
-              <input type="checkbox" name="checkbox-8a" id="checkbox-8a" class="custom">
-              <label for="checkbox-8a">coffee &amp; tea</label>
-            </fieldset>
+            <label for="select-choice-0" class="select">department:</label>
+            <select name="select-choice-0" id="select-choice-0">
+              <option value="all">all departments</option>
+              <option value="bakery">bakery</option>
+              <option value="grocery">grocery</option>
+              <option value="produce">produce</option>
+              <option value="meat">meat</option>
+              <option value="seafood">seafood</option>
+              <option value="prep-foods">prepared foods</option>
+              <option value="specialty">specialty</option>
+              <option value="coffee">coffee &amp; tea</option>
+            </select>
           </div>
           </div><!-- /collapsable -->
         </form>
@@ -145,13 +131,25 @@
 
 <!--Scan Page-->
 	<div data-role="page" id="two">
-	
-	<div data-role="header">
-	 <h1>Farmer's Food Market</h1>
+	<div data-role="header" data-position="inline" class="top">
+    <img src="img/settings.png" alt="cms menu">
+	  <h1>Farmer's Food Market</h1>
 	</div><!-- /header-->
 
 	<div data-role="content">
-	 <img src="img/barcode_mockup.png" alt="barcode page placeholder">
+  <div class="barcode">
+    <h2>find a product by scanning the barcode</h2>
+
+      <div class="scan">
+        <img src="img/false_viewfinder.png" alt="false viewfinder">
+      </div>
+
+    <p>line up the barcode inside the viewfinder to scan</p>
+    <p><em>or</em></p>
+    <p>type in the handy 50 digit number</p>
+    <input id="search" placeholder="enter barcode manually" /> 
+  </div> <!-- /barcode area-->
+
 	</div><!-- /content-->
 
 	<div class="footer" data-role="footer" data-position="fixed">
@@ -165,14 +163,15 @@
 
 <!--Map Page-->
 <div data-role="page" id="three">
-  
-  <div data-role="header">
+  <div data-role="header" data-position="inline" class="top">
+    <img src="img/settings.png" alt="cms menu">
     <h1>Farmer's Food Market</h1>
   </div><!-- /header-->
 
   <div data-role="content">
-    <form>
+    <form class="searchbar">
         <input type="search" id="search" placeholder="Product name..." />
+        <button>back</button> <button>next product</button>
     </form>
     <img src="img/storemap_full.png" alt="store map placeholder">
   </div><!-- /content-->

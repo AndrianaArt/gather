@@ -439,15 +439,24 @@ br {
 img {
   max-width: 100%; }
 
-.searchbar {
+.searchbar, .barcode {
   background-color: #475121;
   padding: 30px;
   margin: -20px -20px 0 -20px;
   border-bottom-style: outset; }
 
-form h2 {
+form h2, .barcode h2 {
   margin-top: -10px;
   color: white; }
+
+.barcode p {
+  color: white;
+  text-align: center; }
+
+.scan {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px; }
 
 .product {
   padding: 15px;
