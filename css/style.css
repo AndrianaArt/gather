@@ -429,6 +429,12 @@ html, body, .ui-header, .ui-title, .footer, form, input, label {
   margin: 5px;
   opacity: .5; }
 
+#logo {
+  position: absolute;
+  max-width: 7%;
+  margin: 5px 5px 2px 5px;
+  opacity: 1; }
+
 br {
   clear: both; }
 

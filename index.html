@@ -21,6 +21,7 @@
 <!--Start of first Page-->
 	<div data-role="page" data-theme="a" id="one">
     <div data-role="header" data-position="inline" class="top">
+      <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
       <img src="img/settings.png" alt="cms menu">
       <h1>Farmer's Food Market</h1>
     </div> <!-- /header -->
@@ -131,10 +132,11 @@
 
 <!--Scan Page-->
 	<div data-role="page" id="two">
-	<div data-role="header" data-position="inline" class="top">
-    <img src="img/settings.png" alt="cms menu">
-	  <h1>Farmer's Food Market</h1>
-	</div><!-- /header-->
+	  <div data-role="header" data-position="inline" class="top">
+      <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+      <img src="img/settings.png" alt="cms menu">
+      <h1>Farmer's Food Market</h1>
+    </div> <!-- /header -->
 
 	<div data-role="content">
   <div class="barcode">
@@ -164,15 +166,21 @@
 <!--Map Page-->
 <div data-role="page" id="three">
   <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
     <img src="img/settings.png" alt="cms menu">
     <h1>Farmer's Food Market</h1>
-  </div><!-- /header-->
+  </div> <!-- /header -->
 
   <div data-role="content">
-    <form class="searchbar">
-        <input type="search" id="search" placeholder="Product name..." />
-        <button>back</button> <button>next product</button>
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
     </form>
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width">
+        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
+      </fieldset>
+    </div>  
     <img src="img/storemap_full.png" alt="store map placeholder">
   </div><!-- /content-->
 
