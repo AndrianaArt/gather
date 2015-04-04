@@ -1,6 +1,8 @@
 # Gather
 *thesis prototype*
+
 Gather is a web application by Andriana Garcia Gutierrez for her MFA Thesis in Web Design & New Media at the Academy of Art University in San Francisco.
+
 [see project progress](http://www.andrianaartdesign.com/)
 
 ## About
