@@ -22,7 +22,7 @@
 
 <body>
 <!--Start of first Page-->
-	<div data-role="page" data-theme="a" id="one">
+	<div data-role="page" data-theme="a" id="home">
     <div data-role="header" data-position="inline" class="top">
       <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
       <img src="img/settings.png" alt="cms menu">
@@ -89,52 +89,64 @@
           </div><!-- /collapsable -->
         </form>
 
-    <div>
+    <div class="product">
       <h3>new products to the store</h3>
-          <div class="product">
-            <img src="img/place.png" alt="placeholder img">
-            <h4>Product Name</h4>
-            <p>Price $</p>
-            <p>Aisle Number</p>
-            <a href="#">Location in Store</a>
-            <br />
-            <p>Polaroid scenester et, mixtape quinoa taxidermy VHS flexitarian sriracha Marfa tofu. Fanny pack drinking vinegar keffiyeh, Pitchfork polaroid fingerstache street art heirloom craft beer. PBR&B semiotics cold-pressed consectetur mustache aute, Kickstarter bitters eu mollit High Life assumenda Neutra mlkshk street art. Cray sartorial leggings bicycle rights keytar. </p>
+          <div class="product-single">
+            <img src="img/prickly_pear.png" alt="prickly pear">
+            <div id="left-side">
+              <h4>Prickly Pear</h4>
+              <p>Fresh Farms</p>
+              <p>ORG</p>
+            </div>
+            <div id="right-side">
+              <h5>$2.49/ea</h5>
+              <p>PRODUCE</p>
+              <a href="#" data-role="button">3P</a>
+            </div>
           </div>
 
-          <div class="product">
-            <img src="img/place.png" alt="placeholder img">
-            <h4>Product Name</h4>
-            <p>Price $</p>
-            <p>Aisle Number</p>
-            <a href="#">Location in Store</a>
-            <br />
-            <p>Polaroid scenester et, mixtape quinoa taxidermy VHS flexitarian sriracha Marfa tofu. Fanny pack drinking vinegar keffiyeh, Pitchfork polaroid fingerstache street art heirloom craft beer. PBR&B semiotics cold-pressed consectetur mustache aute, Kickstarter bitters eu mollit High Life assumenda Neutra mlkshk street art. Cray sartorial leggings bicycle rights keytar. </p>
+          <div class="product-single">
+            <img src="img/summer_beer.png" alt="summer solstice ale">
+            <div id="left-side">
+              <h4>Summer Solstice Ale</h4>
+              <p>Anderson Valley Brewing Company</p>
+              <p>N/A</p>
+            </div>
+            <div id="right-side">
+              <h5>$8.99/ea</h5>
+              <p>SPECIALTY</p>
+              <a href="#" data-role="button">1S</a>
+            </div>
           </div>
 
-          <div class="product">
-            <img src="img/place.png" alt="placeholder img">
-            <h4>Product Name</h4>
-            <p>Price $</p>
-            <p>Aisle Number</p>
-            <a href="#">Location in Store</a>
-            <br />
-            <p>Polaroid scenester et, mixtape quinoa taxidermy VHS flexitarian sriracha Marfa tofu. Fanny pack drinking vinegar keffiyeh, Pitchfork polaroid fingerstache street art heirloom craft beer. PBR&B semiotics cold-pressed consectetur mustache aute, Kickstarter bitters eu mollit High Life assumenda Neutra mlkshk street art. Cray sartorial leggings bicycle rights keytar. </p>
+          <div class="product-single">
+            <img src="img/squash.png" alt="summer squash">
+            <div id="left-side">
+              <h4>Crooked Neck Squash</h4>
+              <p>Burto's Valley</p>
+              <p>ORG</p>
+            </div>
+            <div id="right-side">
+              <h5>$1.29/lb</h5>
+              <p>PRODUCE</p>
+              <a href="#" data-role="button">2P</a>
+            </div>
           </div>
 
-      </div> <!-- /products -->
+      </div> <!-- /product -->
 
     </div><!-- /content-->
 
-    <div class="footer" data-role="footer" data-position="fixed">
-      <a href="#one" id="current" class="ui-btn ui-icon-search ui-btn-icon-left">search</a>
-      <a href="#two" data-transition="slide" class="ui-btn ui-icon-grid ui-btn-icon-left">scan</a>
-      <a href="#three" data-transition="slide" class="ui-btn ui-icon-location ui-btn-icon-left">store map</a>
+    <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+      <a href="#home" id="current" class="ui-state-persist">search</a>
+      <a href="#scan" data-transition="slide">scan</a>
+      <a href="#map" data-transition="slide">map</a>
     </div><!-- /footer-->
   </div><!-- /page one-->
 
 
 <!--Scan Page-->
-	<div data-role="page" id="two">
+	<div data-role="page" id="scan">
 	  <div data-role="header" data-position="inline" class="top">
       <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
       <img src="img/settings.png" alt="cms menu">
@@ -157,17 +169,17 @@
 
 	</div><!-- /content-->
 
-	<div class="footer" data-role="footer" data-position="fixed">
-    <a href="#one" data-direction="reverse" data-transition="slide" class="ui-btn ui-icon-search ui-btn-icon-left">search</a>
-    <a href="#two" id="current" class="ui-btn ui-icon-grid ui-btn-icon-left">scan</a>
-    <a href="#three" data-transition="slide" class="ui-btn ui-icon-location ui-btn-icon-left">store map</a>
+	<div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide">search</a>
+    <a href="#scan" id="current" class="ui-state-persist">scan</a>
+    <a href="#map" data-transition="slide">map</a>
   </div><!-- /footer-->
 
 	</div><!-- /page two-->
 
 
 <!--Map Page-->
-<div data-role="page" id="three">
+<div data-role="page" id="map">
   <div data-role="header" data-position="inline" class="top">
     <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
     <img src="img/settings.png" alt="cms menu">
@@ -184,15 +196,15 @@
         <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
       </fieldset>
     </div>  
-    <div id="map">
+    <div id="storemap">
       <img src="img/storemap_full.png" width="1008" height="612" alt="store map">
     </div>
   </div><!-- /content-->
 
-  <div class="footer" data-role="footer" data-position="fixed">
-    <a href="#one" data-direction="reverse" data-transition="slide" class="ui-btn ui-icon-search ui-btn-icon-left">search</a>
-    <a href="#two" data-direction="reverse" data-transition="slide" class="ui-btn ui-icon-grid ui-btn-icon-left">scan</a>
-    <a href="#three" id="current" class="ui-btn ui-icon-location ui-btn-icon-left">store map</a>
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide">search</a>
+    <a href="#scan" data-direction="reverse" data-transition="slide">scan</a>
+    <a href="#map" id="current" class="ui-state-persist">map</a>
   </div><!-- /footer-->
 
 </div><!-- /page three-->

@@ -1,0 +1,1 @@
+$(function(){$("#storemap").draggable({cursor:"move",containment:""})});

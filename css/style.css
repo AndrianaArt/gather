@@ -410,12 +410,11 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
   box-shadow: none; }
 
 /*********************
-BASE (MOBILE) SIZE
+BASE (AVERAGE MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
 you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 
-Will deal with the breakpoints laterz... 2/28/2015
 *********************/
 html {
   height: 100%; }
@@ -449,7 +448,7 @@ img {
   background-color: #475121;
   padding: 30px;
   margin: -20px -20px 0 -20px;
-  border-bottom-style: outset; }
+  box-shadow: 0 1px 2px #222222; }
 
 .searchbar {
   position: relative;
@@ -468,22 +467,39 @@ form h2, .barcode h2 {
   padding: 30px;
   border-radius: 5px; }
 
-.product {
+.product h3 {
+  color: #501835;
+  font-weight: 400; }
+
+.product-single {
   padding: 15px;
   margin: 10px;
   background-color: white;
   border-radius: .3em;
-  border-bottom-style: outset; }
+  border-bottom-style: outset;
+  border-width: 2px;
+  overflow: auto; }
+  .product-single h4 {
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: -10px; }
+  .product-single h5 {
+    font-size: 1.5em;
+    margin-bottom: -10px; }
+  .product-single img {
+    float: left;
+    margin: -10px 0 0 -10px;
+    padding-right: 1em; }
 
-.product h4 {
-  margin-top: -5px; }
-
-.product img {
+#left-side {
   float: left;
-  padding-right: 20px;
-  padding-bottom: 20px; }
+  width: 30%; }
 
-#map img {
+#right-side {
+  margin-top: -40px;
+  float: right; }
+
+#storemap img {
   max-width: none; }
 
 .footer {
@@ -499,17 +515,19 @@ form h2, .barcode h2 {
   text-align: center; }
 
 /*********************
-LARGER MOBILE DEVICES
-This is for devices like the Galaxy Note or something that's
-larger than an iPhone but smaller than a tablet. Let's call them
-tweeners.
+TINY MOBILE DEVICES
+*********************/
+@media only screen and (max-width: 515px) {
+  .product-single img {
+    max-width: 50%;
+    float: left; }
 
-@media only screen and (min-width: 481px) {
+  #left-side {
+    width: 40%; }
 
-	// styles in 481up.scss
-	@import "breakpoints/481up";
-
-} // end of media query *********************/
+  #right-side {
+    clear: both;
+    float: left; } }
 /*********************
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and

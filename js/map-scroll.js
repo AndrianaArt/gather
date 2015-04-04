@@ -1,7 +1,7 @@
  //map scrolling
  
  $(function() {
-    $("#map").draggable({
+    $("#storemap").draggable({
       cursor: "move", 
       containment: "", 
     });

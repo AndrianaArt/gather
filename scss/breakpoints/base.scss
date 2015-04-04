@@ -40,7 +40,7 @@ img{
 	background-color: $gather-dark;
 	padding: 30px;
 	margin: -20px -20px 0 -20px;
-	border-bottom-style: outset;
+	box-shadow: 0 1px 2px #222222;
 }
 
 .searchbar{
@@ -52,6 +52,8 @@ form h2, .barcode h2 {
 	margin-top: -10px;
 	color: white;
 }
+
+//scan page 
 
 .barcode p {
 	color: white;
@@ -66,27 +68,51 @@ form h2, .barcode h2 {
 
 //product styles
 
-.product {
+.product h3{
+	color: $gather-accent;
+	font-weight: 400;
+}
+
+.product-single {
 	padding: 15px;
 	margin: 10px;
 	background-color: white;
 	border-radius: .3em;
 	border-bottom-style: outset;
-}
+	border-width: 2px;
+	overflow: auto;
 
-.product h4{
-	margin-top: -5px;
-}
+	h4{
+	margin-top: 0;
+	font-size: 1.5em;
+	margin-bottom: -10px;
+	}
 
-.product img{
+	h5 {
+	font-size: 1.5em;
+	margin-bottom: -10px;
+	}
+	
+	img{
 	float:left;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	margin: -10px 0 0 -10px;
+	padding-right: 1em;
+	}
+}
+
+#left-side{
+	float: left;
+	width: 30%;
+}
+
+#right-side{
+	margin-top: -40px;
+	float: right;
 }
 
 //map styles
 
-#map img{
+#storemap img{
 	max-width: none;
 }
 

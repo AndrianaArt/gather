@@ -55,29 +55,26 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 @import "modules/forms";
 
 /*********************
-BASE (MOBILE) SIZE
+BASE (AVERAGE MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
 you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 
-Will deal with the breakpoints laterz... 2/28/2015
 *********************/
 
 // styles in base.scss
 @import "breakpoints/base";
 
 /*********************
-LARGER MOBILE DEVICES
-This is for devices like the Galaxy Note or something that's
-larger than an iPhone but smaller than a tablet. Let's call them
-tweeners.
+TINY MOBILE DEVICES
+*********************/
 
-@media only screen and (min-width: 481px) {
+@media only screen and (max-width: 515px) {
 
 	// styles in 481up.scss
-	@import "breakpoints/481up";
+	@import "breakpoints/mobile.scss";
 
-} // end of media query *********************/
+} // end of media query 
 
 /*********************
 TABLET & SMALLER LAPTOPS
