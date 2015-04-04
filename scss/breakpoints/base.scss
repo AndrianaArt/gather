@@ -18,7 +18,7 @@ html, body, .ui-header, .ui-title, .footer, form, input, label {
 
 #logo {
 	position: absolute;
-	max-width: 7%;
+	max-width: 35px;
 	margin: 5px 5px 2px 5px;
 	opacity: 1;
 }
@@ -43,6 +43,11 @@ img{
 	border-bottom-style: outset;
 }
 
+.searchbar{
+	position: relative;
+  	z-index: 1;
+}
+
 form h2, .barcode h2 {
 	margin-top: -10px;
 	color: white;
@@ -59,11 +64,14 @@ form h2, .barcode h2 {
 	border-radius: 5px;
 }
 
+//product styles
+
 .product {
 	padding: 15px;
 	margin: 10px;
 	background-color: white;
 	border-radius: .3em;
+	border-bottom-style: outset;
 }
 
 .product h4{
@@ -75,6 +83,15 @@ form h2, .barcode h2 {
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
+
+//map styles
+
+#map img{
+	max-width: none;
+}
+
+
+//footer styles
 
 .footer{
 	background-color: $gather-dark !important;

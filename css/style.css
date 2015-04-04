@@ -431,7 +431,7 @@ html, body, .ui-header, .ui-title, .footer, form, input, label {
 
 #logo {
   position: absolute;
-  max-width: 7%;
+  max-width: 35px;
   margin: 5px 5px 2px 5px;
   opacity: 1; }
 
@@ -451,6 +451,10 @@ img {
   margin: -20px -20px 0 -20px;
   border-bottom-style: outset; }
 
+.searchbar {
+  position: relative;
+  z-index: 1; }
+
 form h2, .barcode h2 {
   margin-top: -10px;
   color: white; }
@@ -468,7 +472,8 @@ form h2, .barcode h2 {
   padding: 15px;
   margin: 10px;
   background-color: white;
-  border-radius: .3em; }
+  border-radius: .3em;
+  border-bottom-style: outset; }
 
 .product h4 {
   margin-top: -5px; }
@@ -477,6 +482,9 @@ form h2, .barcode h2 {
   float: left;
   padding-right: 20px;
   padding-bottom: 20px; }
+
+#map img {
+  max-width: none; }
 
 .footer {
   background-color: #475121 !important;
