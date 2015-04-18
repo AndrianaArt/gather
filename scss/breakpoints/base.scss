@@ -3,7 +3,7 @@ html{
 	height: 100%;
 }
 
-html, body, .ui-header, .ui-title, .footer, form, input, label {
+html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode {
 	text-shadow: none !important;
 	height: auto;
 }
@@ -84,12 +84,12 @@ form h2, .barcode h2 {
 
 	h4{
 	margin-top: 0;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -10px;
 	}
 
 	h5 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -10px;
 	}
 	

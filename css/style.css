@@ -419,7 +419,7 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 html {
   height: 100%; }
 
-html, body, .ui-header, .ui-title, .footer, form, input, label {
+html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode {
   text-shadow: none !important;
   height: auto; }
 
@@ -481,10 +481,10 @@ form h2, .barcode h2 {
   overflow: auto; }
   .product-single h4 {
     margin-top: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: -10px; }
   .product-single h5 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: -10px; }
   .product-single img {
     float: left;
@@ -519,7 +519,7 @@ TINY MOBILE DEVICES
 *********************/
 @media only screen and (max-width: 515px) {
   .product-single img {
-    max-width: 50%;
+    max-width: 40%;
     float: left; }
 
   #left-side {

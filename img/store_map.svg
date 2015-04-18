@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1500px" height="1187px" viewBox="0 0 1500 1187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Store Map</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Store-Map" sketch:type="MSArtboardGroup">
+            <g sketch:type="MSLayerGroup" transform="translate(-1.000000, -1.000000)">
+                <g id="Cafe" transform="translate(28.000000, 891.000000)" sketch:type="MSShapeGroup" fill="#E5E5E4">
+                    <ellipse id="Oval-45" stroke="#B9B9B9" cx="440.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-46" stroke="#B9B9B9" cx="467.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-47" stroke="#B9B9B9" cx="494.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-48" stroke="#B9B9B9" cx="521.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-49" stroke="#B9B9B9" cx="548.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <ellipse id="Oval-50" stroke="#B9B9B9" cx="575.5" cy="48.5" rx="7.5" ry="5.5"></ellipse>
+                    <rect id="Rectangle-66" x="420.438596" y="0" width="174.561404" height="44"></rect>
+                    <rect id="Rectangle-67" x="610.438596" y="118" width="73.5614035" height="44"></rect>
+                    <g id="table" transform="translate(441.000000, 118.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-2" transform="translate(494.000000, 118.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-3" transform="translate(547.000000, 118.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-5" transform="translate(382.000000, 186.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-6" transform="translate(315.000000, 186.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-7" transform="translate(252.000000, 186.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-8" transform="translate(189.000000, 186.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-9" transform="translate(126.000000, 185.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-10" transform="translate(63.000000, 185.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                    <g id="table-11" transform="translate(0.000000, 185.000000)" stroke="#B9B9B9">
+                        <circle id="Oval-1" cx="6.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-2" cx="6.5" cy="32.5" r="6.5"></circle>
+                        <circle id="Oval-4" cx="30.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-3" cx="30" cy="32.5" r="6.5"></circle>
+                        <rect id="Rectangle-68" transform="translate(18.500000, 22.500000) rotate(-180.000000) translate(-18.500000, -22.500000) " x="7" y="1" width="23" height="43"></rect>
+                    </g>
+                </g>
+                <g id="Seafood" transform="translate(867.000000, 141.000000)" stroke="#979797" fill="#A9B4E5" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-7" transform="translate(322.000000, 20.500000) rotate(-90.000000) translate(-322.000000, -20.500000) " x="302" y="-107" width="40" height="255"></rect>
+                    <rect id="Rectangle-8" transform="translate(97.000000, 41.500000) rotate(-90.000000) translate(-97.000000, -41.500000) " x="56.5" y="-55.5" width="81" height="194"></rect>
+                </g>
+                <g id="Store-Hardware" transform="translate(1.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <rect id="carts" fill="#E5E5E4" transform="translate(1265.250000, 1089.000000) rotate(-90.000000) translate(-1265.250000, -1089.000000) " x="1245.25" y="897.25" width="40" height="383.5"></rect>
+                    <rect id="walls" fill="#979797" x="1073.5" y="1052.85714" width="429.5" height="16.0714286"></rect>
+                    <rect id="walls-3" fill="#979797" x="842" y="1052.85714" width="101" height="17.1428571"></rect>
+                    <rect id="walls-2" fill="#979797" x="6.25277607e-13" y="1052.85714" width="711" height="16.0714286"></rect>
+                    <rect id="walls2" fill="#979797" x="407" y="1010" width="41" height="43.6071429"></rect>
+                    <rect id="walls3" fill="#979797" x="3.55271368e-15" y="1010" width="41" height="43.6071429"></rect>
+                    <rect id="restroom" fill="#E5E5E4" transform="translate(71.500000, 45.500000) rotate(-180.000000) translate(-71.500000, -45.500000) " x="1.42108547e-14" y="1" width="143" height="89"></rect>
+                    <rect id="back-dock" fill="#E5E5E4" transform="translate(856.500000, 71.000000) rotate(-180.000000) translate(-856.500000, -71.000000) " x="213" y="1" width="1287" height="140"></rect>
+                </g>
+                <g id="Front-End" transform="translate(662.000000, 798.000000)" stroke="#B5B5B5" fill="#E5E5E4" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-43" transform="translate(21.000000, 51.000000) rotate(-180.000000) translate(-21.000000, -51.000000) " x="1" y="1" width="40" height="100"></rect>
+                    <rect id="Rectangle-44" transform="translate(84.000000, 51.000000) rotate(-180.000000) translate(-84.000000, -51.000000) " x="64" y="1" width="40" height="100"></rect>
+                    <rect id="Rectangle-45" transform="translate(147.000000, 51.000000) rotate(-180.000000) translate(-147.000000, -51.000000) " x="127" y="1" width="40" height="100"></rect>
+                    <rect id="Rectangle-47" transform="translate(208.000000, 51.000000) rotate(-180.000000) translate(-208.000000, -51.000000) " x="188" y="1" width="40" height="100"></rect>
+                    <rect id="Rectangle-46" transform="translate(272.000000, 51.000000) rotate(-180.000000) translate(-272.000000, -51.000000) " x="252" y="1" width="40" height="100"></rect>
+                    <rect id="Rectangle-42" transform="translate(329.500000, 51.000000) rotate(-180.000000) translate(-329.500000, -51.000000) " x="292" y="1" width="75" height="100"></rect>
+                </g>
+                <g id="Prep-Foods" transform="translate(0.000000, 147.000000)" stroke="#979797" fill="#FAD8E8" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-14" transform="translate(311.000000, 424.000000) rotate(-180.000000) translate(-311.000000, -424.000000) " x="216" y="391" width="190" height="66"></rect>
+                    <rect id="Rectangle-15" transform="translate(311.000000, 321.000000) rotate(-180.000000) translate(-311.000000, -321.000000) " x="216" y="288" width="190" height="66"></rect>
+                    <rect id="Rectangle-16" transform="translate(311.000000, 215.000000) rotate(-180.000000) translate(-311.000000, -215.000000) " x="216" y="182" width="190" height="66"></rect>
+                    <rect id="Rectangle-12" transform="translate(48.000000, 67.000000) rotate(-180.000000) translate(-48.000000, -67.000000) " x="1" y="0" width="94" height="134"></rect>
+                    <rect id="Rectangle-13" transform="translate(61.000000, 244.500000) rotate(-180.000000) translate(-61.000000, -244.500000) " x="1" y="135" width="120" height="219"></rect>
+                    <rect id="Rectangle-25" transform="translate(496.500000, 468.500000) rotate(-180.000000) translate(-496.500000, -468.500000) " x="479" y="360.5" width="35" height="216"></rect>
+                </g>
+                <g id="Specialty" transform="translate(0.000000, 798.000000)" stroke="#979797" fill="#F7CA7D" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-23" x="448" y="1" width="174.561404" height="97"></rect>
+                    <rect id="Rectangle-2" transform="translate(224.750000, 235.000000) rotate(-90.000000) translate(-224.750000, -235.000000) " x="204.75" y="51.25" width="40" height="367.5"></rect>
+                    <rect id="Rectangle-3" transform="translate(21.000000, 109.000000) rotate(-180.000000) translate(-21.000000, -109.000000) " x="1" y="2" width="40" height="214"></rect>
+                    <rect id="Rectangle-4" transform="translate(428.000000, 127.000000) rotate(-180.000000) translate(-428.000000, -127.000000) " x="408" y="39" width="40" height="176"></rect>
+                    <rect id="Rectangle-20" transform="translate(323.000000, 107.000000) rotate(-180.000000) translate(-323.000000, -107.000000) " x="303" y="57" width="40" height="100"></rect>
+                    <rect id="Rectangle-21" transform="translate(224.000000, 107.000000) rotate(-180.000000) translate(-224.000000, -107.000000) " x="204" y="57" width="40" height="100"></rect>
+                    <rect id="Rectangle-22" transform="translate(125.000000, 107.000000) rotate(-180.000000) translate(-125.000000, -107.000000) " x="105" y="57" width="40" height="100"></rect>
+                </g>
+                <g id="Grocery" transform="translate(214.000000, 141.000000)" stroke="#979797" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-26" fill="#B4E2F5" transform="translate(282.500000, 258.500000) rotate(-180.000000) translate(-282.500000, -258.500000) " x="265" y="150.5" width="35" height="216"></rect>
+                    <rect id="Rectangle-29" fill="#B4E2F5" transform="translate(317.500000, 366.000000) rotate(-180.000000) translate(-317.500000, -366.000000) " x="300" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-48" fill="#B4E2F5" transform="translate(679.750000, 892.250000) rotate(-90.000000) translate(-679.750000, -892.250000) " x="659.75" y="841.75" width="40" height="101"></rect>
+                    <rect id="Rectangle-9" fill="#B4E2F5" transform="translate(326.500000, 21.000000) rotate(-90.000000) translate(-326.500000, -21.000000) " x="306.5" y="-305.5" width="40" height="653"></rect>
+                    <path d="M846,366.390674 L811,366.390674 L811,224.958113 C811,200.1023 811,150.390674 811,150.390674 L846,150.390674 L846,366.390674 Z" id="Rectangle-27" fill="#B4E2F5"></path>
+                    <rect id="Rectangle-30" fill="#B4E2F5" transform="translate(415.500000, 366.000000) rotate(-180.000000) translate(-415.500000, -366.000000) " x="398" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-31" fill="#B4E2F5" transform="translate(450.500000, 366.000000) rotate(-180.000000) translate(-450.500000, -366.000000) " x="433" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-33" fill="#B4E2F5" transform="translate(670.500000, 366.000000) rotate(-180.000000) translate(-670.500000, -366.000000) " x="653" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-32" fill="#B4E2F5" transform="translate(705.500000, 366.000000) rotate(-180.000000) translate(-705.500000, -366.000000) " x="688" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-36" fill="#B4E2F5" x="778" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-35" fill="#B4E2F5" transform="translate(545.500000, 366.000000) rotate(-180.000000) translate(-545.500000, -366.000000) " x="528" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-34" fill="#B4E2F5" transform="translate(580.500000, 366.000000) rotate(-180.000000) translate(-580.500000, -366.000000) " x="563" y="150" width="35" height="432"></rect>
+                    <rect id="Rectangle-50" fill="#B4E2F5" x="653" y="553" width="70" height="30"></rect>
+                    <rect id="Rectangle-51" fill="#B4E2F5" x="528" y="553" width="70" height="30"></rect>
+                    <rect id="Rectangle-52" fill="#B4E2F5" x="398" y="553" width="70" height="30"></rect>
+                    <rect id="Rectangle-55" fill="#B4E2F5" x="398" y="149" width="70" height="30"></rect>
+                    <rect id="Rectangle-56" fill="#B4E2F4" x="528" y="149" width="70" height="30"></rect>
+                    <rect id="Rectangle-57" fill="#B4E2F5" x="653" y="149" width="70" height="30"></rect>
+                    <rect id="Rectangle-1" fill="#B4E2F5" transform="translate(1074.000000, 892.000000) rotate(-90.000000) translate(-1074.000000, -892.000000) " x="1054" y="679" width="40" height="426"></rect>
+                </g>
+                <g id="Produce" transform="translate(531.000000, 404.000000)" stroke="#979797" fill="#A7D296" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-5" transform="translate(950.000000, 279.000000) rotate(-180.000000) translate(-950.000000, -279.000000) " x="930" y="0" width="40" height="558"></rect>
+                    <rect id="Rectangle-37" transform="translate(730.000000, 271.000000) rotate(-180.000000) translate(-730.000000, -271.000000) " x="630.5" y="238" width="199" height="66"></rect>
+                    <rect id="Rectangle-59" transform="translate(790.201172, 454.634138) rotate(-90.000000) translate(-790.201172, -454.634138) " x="717.46875" y="421.634138" width="145.464844" height="66"></rect>
+                    <rect id="Rectangle-60" transform="translate(669.798828, 460.365862) rotate(-99.000000) translate(-669.798828, -460.365862) " x="597.066406" y="427.365862" width="145.464844" height="66"></rect>
+                    <rect id="Rectangle-38" transform="translate(730.000000, 155.500000) rotate(-180.000000) translate(-730.000000, -155.500000) " x="630.5" y="122.5" width="199" height="66"></rect>
+                    <rect id="Rectangle-39" transform="translate(730.000000, 33.500000) rotate(-180.000000) translate(-730.000000, -33.500000) " x="630.5" y="0.5" width="199" height="66"></rect>
+                    <rect id="Rectangle-41" transform="translate(519.000000, 457.500000) rotate(-180.000000) translate(-519.000000, -457.500000) " x="499" y="395" width="40" height="125"></rect>
+                    <rect id="Rectangle-28" x="496" y="103.05919" width="33" height="216"></rect>
+                    <rect id="Rectangle-49" x="460" y="290" width="70" height="30"></rect>
+                    <rect id="Rectangle-63" transform="translate(90.750000, 684.000000) rotate(-90.000000) translate(-90.750000, -684.000000) " x="70.75" y="594.25" width="40" height="179.5"></rect>
+                    <rect id="Rectangle-64" transform="translate(362.500000, 685.500000) rotate(-90.000000) translate(-362.500000, -685.500000) " x="342.5" y="635" width="40" height="101"></rect>
+                </g>
+                <g id="Bakery" transform="translate(0.000000, 248.000000)" stroke="#979797" fill="#F6EF98" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-17" transform="translate(286.000000, 17.500000) rotate(-180.000000) translate(-286.000000, -17.500000) " x="216" y="1" width="140" height="33"></rect>
+                    <rect id="Rectangle-18" x="236.65625" y="439.914063" width="140" height="33"></rect>
+                    <rect id="Rectangle-19" x="227" y="470.882812" width="140" height="33"></rect>
+                    <rect id="Rectangle-11" transform="translate(48.000000, 366.500000) rotate(-180.000000) translate(-48.000000, -366.500000) " x="1" y="280" width="94" height="173"></rect>
+                    <rect id="Rectangle-54" x="479" y="42" width="70" height="30"></rect>
+                </g>
+                <g id="Coffee" transform="translate(1.000000, 660.000000)" stroke="#979797" fill="#D9C3B0" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-10" transform="translate(60.000000, 90.500000) rotate(-180.000000) translate(-60.000000, -90.500000) " x="0" y="41" width="120" height="99"></rect>
+                    <rect id="Rectangle-53" x="478" y="34" width="70" height="30"></rect>
+                    <rect id="Rectangle-61" x="337.741137" y="67.8582789" width="66.8279544" height="30"></rect>
+                    <rect id="Rectangle-62" x="196.741137" y="21.6604791" width="66.8279544" height="30"></rect>
+                </g>
+                <g id="Meat" transform="translate(991.000000, 142.000000)" stroke="#979797" fill="#FC9696" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-6" transform="translate(418.000000, 101.000000) rotate(-180.000000) translate(-418.000000, -101.000000) " x="326" y="1.13686838e-13" width="184" height="202"></rect>
+                    <rect id="Rectangle-40" transform="translate(251.000000, 182.000000) rotate(-180.000000) translate(-251.000000, -182.000000) " x="176" y="162" width="150" height="40"></rect>
+                    <rect id="Rectangle-58" x="0" y="148" width="70" height="30"></rect>
+                </g>
+                <g id="icons" transform="translate(38.000000, 13.000000)" sketch:type="MSBitmapLayer">
+                    <image id="Restrooms" x="0" y="0" width="60" height="60" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAA1teXP8meAAABPRJREFUeAHtWUvLFUcQvQaREMQXRjAL+VARFZFEFJSoIGpifAUFUSQ78wPElboTV4IIYhZBRFeiCx/gAwwoiKAg+EIjZqeChoiJkhgFn/Gcj+mhbn3VPd0zc/VyMwWH7qquOtVT09M9d26r1UhTgaYCTQWaCiRXYBUiLgNvgdfAWeBroIz8hyCNFJ5P4bwdeJDxPEG7DxgDdES2glVPmDoLsbZERosrlmYIHC8CFsd92L+IJYr1mwpH3nUrIW3PgFFAilhcsfHb4GjFO9vxWKJYv50FCZn4h1iyzM9NVraxFHfhKON0nzdrdIjsk9CgMTbBsGnTl9rQQb2vgJvXF3wMUgvwV0FCDnMz+lDCDa9IYnyKOPLxJejpZSZ1LrmJuXdcR8a7flxkq/UzHF2M1V6PJUrxOxZIuiOFKPO1Jh5Lw+X9CLA4XsI+J5YoxY9Hz26Ax55LzN1/C5D6SCEk53BcbFOE+9IFQMb/Bn1BDMmgGCePzzDYvwLeAFxqL4AyYl1wmXmNR3IWgyviZuxEyiSK5Y71q6sAsfna/Aa3acXKJLjMAyYDIwG+hr4DWPWHwOUMtHVKOOeZGcai5SM5HOBctDyF4S7AR+SaHkzRv4fzVUA+Z74+j8FNQGxxLR6Em8J53AOsmCLbecRNAZKEm9p+oIjcGudqCL6FZTOxYrOhtmYhtNBruMWjbY/BEXwxassIZTOgSVL005rQ0C0+w611q+JcXB6+O0TJZ/D6G3CBZdvZBdksXh3SV8M8XJ7n4OK+0S9c4j5ZhQEedVVlQ1UCxPNXaF3CG5vzhQqwWmW8o3SfelsNrIQeyqPcTXWEaS1vHOdCfRPjEvnGOaH9A9go9FD3KAZPCAd+meGxVUX0PFPfX7Q/V0G/aGJnn4vOUKeg5QXJgoihAd3lsBxS1mVK7xrVV4ClaoYnocdeBL8H3ADky5DmU/QfT/UVYLGY0iv07wF8+4sRcs4CrgjnGeiPEnrXdK0CcIOYLmZ4CX0+EinCje+MCGCe74TeNV2rAGvU7E5B55GYIovg/IsKWK/0rlCtAqxTM+Nn5/nKVqTy2OJJ8o9wZFHqeK8QlNW7ugB8T5ZHFo8/Xoz1S6soOze+s8KJBYk9SURYZ7u6ALxLUnim81grI98i6KAKTH2UXHh+bjtDXa0uAH/rSzkMJfb4k3HscyP9FZBfiqZyoIR8sALI3/DXMNE/gb4SE3Yh3DsOOAVt2QuR7xSCrnpXrwDecSb7F/gRqHp08QPGVsD9jjiCfhnhd8c6JcjXh0yfZ9nOoXU/I8u0zxHPzW8oMA2wxOLVfnwPkX4cl3pRX/v75kK/XDjpl0ARedG43ljzBFnHitc+1PcCvwM/UYH44nx2rm6ORX8Q4ducRZZq2wWekFh8IX835ovz2RmnH/mBBseOdrXoV+muqBJcc2zSZsrP3FY1y9jGBy7E4gu450O+OJ89D5SdAUsiG+RPWr4V1iXdtArarslXgCVtXtWVpdUpOsOgPxWFsnBpaXHxoTEdo/Wysb44n13n7dd9K8B07kVjU4BevKsp19SsgJRq9aJvswJ68a6mXFOzAlKq1Yu+zQroxbuack3NCkipVi/6Nisg4a66j5EuROqyz3Gtu5g6W53D6a51ubTu7Mkt/9/fA/D3Nlv5f39oDK5BIZ9GMCAb9OX02WM4G5+mAk0Fmgr8vyrwHjTXA3hz7g6rAAAAAElFTkSuQmCC"></image>
+                    <image id="app_type_restaurant_512px_GREY" x="454" y="891" width="98" height="98" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAA1teXP8meAAAKLpJREFUeAHt3VtyG8e9B+AB7civ2kF4VhBlBZZXEPgtt6rQK4i8AksrsLwC01WO7DcjKzCzAjMrCM4O6EfrOMTpIUCJkAiwB5hLXz5UsUQAPX35/hDmh8EAbBoXAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIpC4wS32C5keAAIHUBebzP542zYfhZ/Uk/DzezPe34fdw25vLZdPMfl5fW4XfP7haLL69eHOvXwiMLCAAjAxuOAIE8haYz8/CDv6Xp2EVH4efJ2Gn3v5+zCWEgdVF6OBfi8V3i2M6si2BLgICQBetidvO5399Gl5lXC4W51d9TmWofts5rp8sfw1Pkr8uF4vvl33Oe91/+8qraYbou+3XhcCtwHz+57Pw+x/Cz/z2tgH+bf9vL5rm5BtHBwbQ1eWWgACwxZHWlfXO8/WzMKu/hZ/Tt7NrXy3MPl8sXl2+va3bb5u+vwxbnd3ZcvPk03zV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AgQIECCwLSAAbHu4RoAAAQIEqhAQAKoos0USIECAAIFtAQFg28M1AgQIECBQhYAAUEWZLZIAAQIECGwLCADbHq4RIECAAIEqBASAKspskQQIECBAYFtAANj2cI0AAQIECFQhIABUUWaLJECAAAEC2wICwLaHawQIECBAoAoBAaCKMlskAQIECBDYFhAAtj1cI0CAAAECVQgIAFWU2SIJECBAgMC2gACw7eEaAQIECBCoQkAAqKLMFkmAAAECBLYFBIBtD9cIECBAgEAVAgJAFWW2SAIECBAgsC0gAGx7uEaAAAECBKoQEACqKLNFEiBAgACBbQEBYNvDtckEVpeTDW1gAgQIVCggAFRY9DSX/MFVmvMyKwIECJQpIACUWVerIkCAAAECewUEgL087iRAgAABAmUKCABl1tWqCBAgQIDAXgEBYC+POwkQIECAQJkCAkCZdbUqAgQIECCwV0AA2MvjTgIECBAgUKaAAFBmXa2KAAECBAjsFRAA9vK4kwABAgQIlCkgAJRZV6siQIAAAQJ7BQSAvTzuJECAAAECZQoIAGXW1aoIECBAgMBeAQFgL487CRAgQIBAmQICQJl1tSoCBAgQILBXQADYy+NOAgQIECBQpoAAUGZdrYoAAQIECOwVEAD28riTAAECBAiUKSAAlFlXqyJAgAABAnsFBIC9PO4kQIAAAQJlCggAZdbVqggQIECAwF4BAWAvjzsJECBAgECZAgJAmXW1KgIECBAgsFdAANjL404CBAgQIFCmgABQZl2tigABAgQI7BUQAPbyuJMAAQIECJQpIACUWVerIkCAAAECewUEgL087hxP4NfleGMZiQABAgQEAI+BJAQWi++XSUzEJAgQIFCJgABQSaEtkwABAgQI3BUQAO5q+J0AAQIECFQiIABUUmjLJECAAAECdwUEgLsafidAgAABApUICACVFNoyCRAgQIDAXQEB4K6G3wkQIECAQCUCAkAlhbZMAgQIECBwV0AAuKvhdwIECBAgUImAAFBJoS2TAAECBAjcFRAA7mr4nQABAgQIVCIgAFRSaMskQKAUgdlVKSuxjmkFBIBp/Y1OgACBjgKzy44baE7gXgEB4F4WN44ssBx5vMSHW6X+BJ/6/BKv77HT85czjxW0/VpAAKjikZD6E8ZqUUUZIhe5WHzXelxFNp+i2XKKQY15I3DlL2d6JPQlIAD0JZlwP5snjIR3KLNvEuabaGqrzyYaOGLY2b8iGuXc5DLhyV8kPDdTy0xAAMisYEdM9+KIbYfc9HKxeJXyE+6Qa9/Z9/oowOpiZ4NJ70h1Xn2hzP7dV08D9PPPAfrUZaUCAkA9hU/1ieOrekrQdaUfvOi6xQjtKwhs1xcjOB4yRDj8/+r8kA1tQ+A+AQHgPpUCb9s8cSwTW9rSE9ruiiwW316Eexe7W0xyT/GBbf2WWZJHOYq3n+QRXfGgAkBVxV99ntZyTxJ+nzsVqeu2Zqmcv9G++j9PRWbYeSR39CU8Bh69HHbNeq9NQACoqOKbs8tTeUW52LzCragC3Ze6OYEzlVd+1QS2BI++fL5YnKcSBLs/kG2RpIAAkGRZhpzUo/ZJ/HLIESL6Dk9kN/OIaKpJeNX9PChMXbPPwjymnsPID4abx+hy5EHvGy6E5VqOvNy3fLcNJSAADCWbaL/rVxGPPgnTm/LJ/BOvZro+QK4/DVuE4DTJ5bzGHdDmMTqle1vs8P9UWJ7kUV/BoAJABUV+d4kTh4AKX0m+W4Hu19dvBZy0O6OxL+3Ov5pD/+/ibo56tIF5ivDV7vyF5XeL4npvArPeetJRlgLz+Z++bJrZs5Em3+78z0caq8hh5vM/n4WFfT3O4mbhfed/vBxnrLRHmc/PHjfNLz+E/ytPR5qpnf9I0DUPIwDUXP3N2ufzvz5tmut2p3K6uanvf66a5uRTJ/31wzpCCFiGeoWw9u1FPzMup5f5/C/Pmmb1RVhRCASDXc7DK38n/Q3Gq+NbAQHgVqLyf9evcF6HJ7emfXLr8dJ+nnoVdibfL3vstPquQgh4EhB+DD8974hWL5vmoxfO0dj9EJvP/3gaAlL7/+Rsd6uD7rla/1+5+VsQB3VgIwJdBASALloVtL3z5DYPyz1m57IMT2bhVYwns6EeNpvD0mFH1MtbOOfhKFDY8QtqsfW683/lLHabHe3Cjr8JH/V89FLw2iHk5kEEBIBBWPPvdHNEIISA1d86vO/ZPpEtwqujbxw+Hu8xsK7V/52ta9U86TDyZajtN03z3/AxMzv+Dm5bTd/6X/+hw/+Vto/wf6X5Z9jxB3+f8d9CdWUUAQFgFOb8B1mfJ7AKO5fV4/dX0/79+ln7tb7hX5cpBdY7o1/bOrU/j9+fy+wq1OqyaT68tNN5X6ePW/b/X2mWYYxg7/9KH9b6IECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAIE0BP4f9C/+gG+G2lAAAAAASUVORK5CYII="></image>
+                </g>
+                <g id="text" transform="translate(4.000000, 17.000000)">
+                    <text id="entrance" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="841" y="1138">entrance</tspan>
+                    </text>
+                    <text id="flowers" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="556" y="1078">flowers</tspan>
+                    </text>
+                    <text id="restrooms" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="11" y="99">restrooms</tspan>
+                    </text>
+                    <text id="dairy-box" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="510" y="151">dairy box</tspan>
+                    </text>
+                    <text id="hot-soup-bar" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="1179.5" y="316.287109">hot soup bar</tspan>
+                    </text>
+                    <text id="cheese-counter" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="457" y="847">cheese counter</tspan>
+                    </text>
+                    <text id="check-stands" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="749" y="757.857143">check stands</tspan>
+                    </text>
+                    <text id="bulk-bins" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="1262" y="1024">bulk bins</tspan>
+                    </text>
+                    <text id="cafe" sketch:type="MSTextLayer" font-family="Open Sans" font-size="24" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="589" y="967">cafe</tspan>
+                    </text>
+                    <text id="outside-seating" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="162" y="1131.3005">outside seating</tspan>
+                    </text>
+                    <text id="1G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="399" y="151">1G</tspan>
+                    </text>
+                    <text id="2G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="479" y="396">2G</tspan>
+                    </text>
+                    <text id="3G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="516" y="492">3G</tspan>
+                    </text>
+                    <text id="4G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="612" y="473">4G</tspan>
+                    </text>
+                    <text id="5G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="648" y="491">5G</tspan>
+                    </text>
+                    <text id="6G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="743" y="473">6G</tspan>
+                    </text>
+                    <text id="7G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="778" y="492">7G</tspan>
+                    </text>
+                    <text id="8G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="868" y="473">8G</tspan>
+                    </text>
+                    <text id="9G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="903" y="491">9G</tspan>
+                    </text>
+                    <text id="10G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="986" y="487">10G</tspan>
+                    </text>
+                    <text id="11G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1022" y="396">11G</tspan>
+                    </text>
+                    <text id="1SF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1163" y="151">1SF</tspan>
+                    </text>
+                    <text id="1M" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1391" y="234">1M</tspan>
+                    </text>
+                    <text id="1P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1464" y="666">1P</tspan>
+                    </text>
+                    <text id="2P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1242" y="427">2P</tspan>
+                    </text>
+                    <text id="3P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1242" y="548">3P</tspan>
+                    </text>
+                    <text id="4P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1244" y="664">4P</tspan>
+                    </text>
+                    <text id="5P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1185" y="850">5P</tspan>
+                    </text>
+                    <text id="6P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1305" y="847">6P</tspan>
+                    </text>
+                    <text id="7P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1028" y="597">7P</tspan>
+                    </text>
+                    <text id="8P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1010" y="701">8P</tspan>
+                    </text>
+                    <text id="9P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1034" y="847">9P</tspan>
+                    </text>
+                    <text id="10P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="644" y="1078">10P</tspan>
+                    </text>
+                    <text id="11P" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="872" y="1080">11P</tspan>
+                    </text>
+                    <text id="3M" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1007" y="294">3M</tspan>
+                    </text>
+                    <text id="2M" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1220" y="294">2M</tspan>
+                    </text>
+                    <text id="2SF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="943" y="175">2SF</tspan>
+                    </text>
+                    <text id="12G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="1182" y="1024">12G</tspan>
+                    </text>
+                    <text id="14G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="880" y="700">14G</tspan>
+                    </text>
+                    <text id="15G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="753" y="700">15G</tspan>
+                    </text>
+                    <text id="16G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="623" y="700">16G</tspan>
+                    </text>
+                    <text id="19G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="877" y="294">19G</tspan>
+                    </text>
+                    <text id="18G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="752" y="294">18G</tspan>
+                    </text>
+                    <text id="17G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="623" y="294">17G</tspan>
+                    </text>
+                    <text id="13G" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="869" y="1024">13G</tspan>
+                    </text>
+                    <text id="1B" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="31" y="600">1B</tspan>
+                    </text>
+                    <text id="2B" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="291" y="693">2B</tspan>
+                    </text>
+                    <text id="3B" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="278" y="723">3B</tspan>
+                    </text>
+                    <text id="4B" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="269" y="255">4B</tspan>
+                    </text>
+                    <text id="5B" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="498" y="294">5B</tspan>
+                    </text>
+                    <text id="1PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="37" y="343">1PF</tspan>
+                    </text>
+                    <text id="2PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="27" y="190">2PF</tspan>
+                    </text>
+                    <text id="3PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="285.5" y="341">3PF</tspan>
+                    </text>
+                    <text id="4PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="285.5" y="446">4PF</tspan>
+                    </text>
+                    <text id="5PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="283.5" y="551">5PF</tspan>
+                    </text>
+                    <text id="6PF" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="474.5" y="597.550781">6PF</tspan>
+                    </text>
+                    <text id="1C" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="42" y="715.443359">1C</tspan>
+                    </text>
+                    <text id="2C" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="215" y="684.556641">2C</tspan>
+                    </text>
+                    <text id="3C" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="356" y="733.556641">3C</tspan>
+                    </text>
+                    <text id="4C" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="498" y="698.556641">4C</tspan>
+                    </text>
+                    <text id="1SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="0" y="892">1SP</tspan>
+                    </text>
+                    <text id="2SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="112" y="1022">2SP</tspan>
+                    </text>
+                    <text id="3SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="407" y="908">3SP</tspan>
+                    </text>
+                    <text id="4SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="511" y="819">4SP</tspan>
+                    </text>
+                    <text id="5SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="104" y="892">5SP</tspan>
+                    </text>
+                    <text id="6SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="203" y="892">6SP</tspan>
+                    </text>
+                    <text id="7SP" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="302" y="892">7SP</tspan>
+                    </text>
+                    <text id="#1" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="918" y="834">#1</tspan>
+                    </text>
+                    <text id="#2" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="854" y="834">#2</tspan>
+                    </text>
+                    <text id="#3" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="792" y="834">#3</tspan>
+                    </text>
+                    <text id="#4" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="728" y="834">#4</tspan>
+                    </text>
+                    <text id="#5" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="665" y="834">#5</tspan>
+                    </text>
+                    <text id="customer" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="959" y="809">customer</tspan>
+                        <tspan x="959" y="836">service</tspan>
+                        <tspan x="959" y="863">desk</tspan>
+                    </text>
+                    <text id="sushi" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="20" y="231.460938">sushi</tspan>
+                    </text>
+                    <text id="cold-case" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" sketch:alignment="middle" fill="#4A4A4A">
+                        <tspan x="13.7412109" y="381.142857">cold case</tspan>
+                        <tspan x="2.31542969" y="408.142857">sandwiches</tspan>
+                        <tspan x="32.9257812" y="435.142857">pizza</tspan>
+                    </text>
+                    <text id="salad-bar-#1" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="247" y="367">salad bar #1</tspan>
+                    </text>
+                    <text id="salad-bar-#2" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="247" y="471">salad bar #2</tspan>
+                    </text>
+                    <text id="back-dock-&amp;-offices" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="230" y="21">back dock &amp; offices</tspan>
+                    </text>
+                    <text id="cart-storage" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="1207" y="1079">cart storage</tspan>
+                    </text>
+                    <text id="*map-not-to-scale" sketch:type="MSTextLayer" font-family="Open Sans" font-size="18" font-style="italic" font-weight="260" fill="#979797">
+                        <tspan x="1343" y="1166">*map not to scale</tspan>
+                    </text>
+                    <path d="M999,1103.5 L999,1014.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" fill="#979797" sketch:type="MSShapeGroup"></path>
+                    <path id="Line-decoration-1" d="M999,1014.5 L996,1025.3 L1002,1025.3 L999,1014.5 Z" stroke="#979797" stroke-width="5" stroke-linecap="square" fill="#979797"></path>
+                    <path d="M780,1015.5 L780,1111.5" id="Line-2" stroke="#979797" stroke-width="5" stroke-linecap="square" fill="#979797" sketch:type="MSShapeGroup"></path>
+                    <path id="Line-2-decoration-1" d="M780,1111.5 L783,1100.7 L777,1100.7 L780,1111.5 Z" stroke="#979797" stroke-width="5" stroke-linecap="square" fill="#979797"></path>
+                    <text id="FRONT-END" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="806" y="949">FRONT END</tspan>
+                    </text>
+                    <text id="PRODUCE" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="1269" y="744">PRODUCE</tspan>
+                    </text>
+                    <text id="MEAT" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="1215" y="255.287109">MEAT</tspan>
+                    </text>
+                    <text id="SEAFOOD" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="1078" y="205">SEAFOOD</tspan>
+                    </text>
+                    <text id="GROCERY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="663" y="235">GROCERY</tspan>
+                    </text>
+                    <text id="PREPARED-FOODS" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="150" y="299.460938">PREPARED FOODS</tspan>
+                    </text>
+                    <text id="BAKERY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="96" y="612.142857">BAKERY</tspan>
+                    </text>
+                    <text id="COFFEE-" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" sketch:alignment="middle" fill="#B9B9B9">
+                        <tspan x="135.987305" y="765.460937">COFFEE </tspan>
+                        <tspan x="148.020996" y="806.460937">&amp; TEA</tspan>
+                    </text>
+                    <text id="SPECIALTY" sketch:type="MSTextLayer" font-family="Open Sans" font-size="30" font-weight="normal" fill="#B9B9B9">
+                        <tspan x="148" y="976.460938">SPECIALTY</tspan>
+                    </text>
+                    <text id="Farmer’s-Food-Market" sketch:type="MSTextLayer" font-family="Open Sans" font-size="36" font-weight="526" sketch:alignment="middle" fill="#4A4A4A">
+                        <tspan x="683.629883" y="42">Farmer’s Food Market</tspan>
+                        <tspan x="758.574219" y="91" font-size="24" font-weight="260">Long Beach, Store #6</tspan>
+                    </text>
+                    <text id="hot-food-bar" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="246" y="575">hot food bar</tspan>
+                    </text>
+                    <text id="coffee-&amp;" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="16" y="742.460938">coffee &amp;</tspan>
+                        <tspan x="16" y="769.460938">juice bar</tspan>
+                    </text>
+                    <text id="beer-&amp;-wine" sketch:type="MSTextLayer" font-family="Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="206" y="1022">beer &amp; wine</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
