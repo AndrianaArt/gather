@@ -92,7 +92,7 @@
     <div class="product">
       <h3>new products to the store</h3>
           <div class="product-single">
-            <img src="img/prickly_pear.png" alt="prickly pear">
+            <a href="#pear" data-transition="slide"><img src="img/prickly_pear.png" alt="prickly pear"></a>
             <div id="left-side">
               <h4>Prickly Pear</h4>
               <p>Fresh Farms</p>
@@ -106,7 +106,7 @@
           </div>
 
           <div class="product-single">
-            <img src="img/summer_beer.png" alt="summer solstice ale">
+            <a href=""><img src="img/summer_beer.png" alt="summer solstice ale"></a>
             <div id="left-side">
               <h4>Summer Solstice Ale</h4>
               <p>Anderson Valley Brewing Company</p>
@@ -120,7 +120,7 @@
           </div>
 
           <div class="product-single">
-            <img src="img/squash.png" alt="summer squash">
+            <a href=""><img src="img/squash.png" alt="summer squash"></a>
             <div id="left-side">
               <h4>Crooked Neck Squash</h4>
               <p>Burto's Valley</p>
@@ -138,9 +138,9 @@
     </div><!-- /content-->
 
     <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-      <a href="#home" id="current" class="ui-state-persist">search</a>
-      <a href="#scan" data-transition="slide">scan</a>
-      <a href="#map" data-transition="slide">map</a>
+      <a href="#home" id="current" class="ui-state-persist"><img src="img/serach.png" alt="search page"></a>
+      <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+      <a href="#map" data-transition="slide"><img src="img/map.png" alt="store map"></a>
     </div><!-- /footer-->
   </div><!-- /page one-->
 
@@ -170,9 +170,9 @@
 	</div><!-- /content-->
 
 	<div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide">search</a>
-    <a href="#scan" id="current" class="ui-state-persist">scan</a>
-    <a href="#map" data-transition="slide">map</a>
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" id="current" class="ui-state-persist"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" data-transition="slide"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
 
 	</div><!-- /page two-->
@@ -191,10 +191,6 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
-      <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width">
-        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
-      </fieldset>
     </div>  
     <div id="storemap">
       <img src="img/store_map.png" width="750" height="593" alt="store map">
@@ -202,12 +198,57 @@
   </div><!-- /content-->
 
   <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide">search</a>
-    <a href="#scan" data-direction="reverse" data-transition="slide">scan</a>
-    <a href="#map" id="current" class="ui-state-persist">map</a>
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
 
 </div><!-- /page three-->
+
+<!--Product Page-->
+<div data-role="page" id="pear">
+  <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Farmer's Food Market</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
+    </form>
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" data-transition="slide" >
+        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
+      </fieldset>
+    </div>  
+      <div class="product-page">
+        <img src="img/prickly_pear.png" alt="prickly pear">
+        <div id="product-info">
+          <h4>Prickly Pear</h4>
+          <p>Fresh Farms</p>
+          <h5>$2.49/ea</h5>
+          <p>PRODUCE</p>
+          <p>Organic</p>
+          <a href="#" data-role="button">3P</a>
+        </div>
+        <h5>ingredients:</h5>
+        <p>prickly pear fruit</p>
+        <h5>description:</h5>
+        <p>The prickly pear plant has three different edible sections: the pad of the cactus (nopal), which can be treated like a vegetable, the petals of the flowers, which can be added to salads, and the pear (tuna), which can be treated like a fruit. They grow wild throughout the American southwest, down to South America and up to Canada. The ones you may find at a local store or farmers market will surely originate from a commercial nopal farm.</p>
+        <a href="#" data-role="button">similar products</a>
+        <a href="#" data-role="button">more from brand</a>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page four-->
 
 </body>
 </html>

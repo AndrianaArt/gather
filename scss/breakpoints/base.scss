@@ -3,7 +3,7 @@ html{
 	height: 100%;
 }
 
-html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode {
+html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode, h4, h5, h6, h3, h2, h1 {
 	text-shadow: none !important;
 	height: auto;
 }
@@ -44,7 +44,7 @@ img{
 	background-color: $gather-dark;
 	padding: 30px;
 	margin: -20px -20px 0 -20px;
-	box-shadow: 0 1px 2px #222222;
+	@include card(2);
 }
 
 .searchbar{
@@ -72,6 +72,7 @@ label{
 	background-color: white;
 	padding: 30px;
 	border-radius: 5px;
+	@include card(1);
 }
 
 //product styles
@@ -86,9 +87,9 @@ label{
 	margin: 10px;
 	background-color: white;
 	border-radius: .3em;
-	border-bottom-style: outset;
-	border-width: 2px;
 	overflow: auto;
+	@include card(1);
+	transition: 0.5s ease;
 
 	h4{
 	margin-top: 0;
@@ -105,6 +106,36 @@ label{
 	float:left;
 	margin: -10px 0 0 -10px;
 	padding-right: 1em;
+	}
+}
+
+.product-single:hover{
+	@include card(3);
+}
+
+.product-page{
+	padding: 15px;
+	margin: 10px;
+	background-color: white;
+	border-radius: .3em;
+	overflow: auto;
+	@include card(1);
+
+	img{
+	float:left;
+	margin: -10px 0 0 -10px;
+	padding-right: 1em;
+	max-width: 70%;
+	}
+	h4{
+		margin-top: -8px;
+		font-size: 1.5em;
+		margin-bottom: -10px;
+	}
+	h5{
+		font-size: 1.3em;
+		margin-bottom: -10px;
+		margin-top: 0px;
 	}
 }
 
@@ -139,4 +170,9 @@ label{
 .footer p {
   font-weight: 400;
   text-align: center;
+}
+
+.footer img{
+	max-width: 30%;
+	margin-top: -2px;
 }

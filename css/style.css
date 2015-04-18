@@ -419,7 +419,7 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 html {
   height: 100%; }
 
-html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode {
+html, body, .ui-header, .ui-title, .footer, form, input, label, .searchbar, .barcode, h4, h5, h6, h3, h2, h1 {
   text-shadow: none !important;
   height: auto; }
 
@@ -451,7 +451,7 @@ img {
   background-color: #475121;
   padding: 30px;
   margin: -20px -20px 0 -20px;
-  box-shadow: 0 1px 2px #222222; }
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
 
 .searchbar {
   position: relative;
@@ -471,7 +471,8 @@ label {
 .scan {
   background-color: white;
   padding: 30px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
 
 .product h3 {
   color: #501835;
@@ -482,9 +483,9 @@ label {
   margin: 10px;
   background-color: white;
   border-radius: .3em;
-  border-bottom-style: outset;
-  border-width: 2px;
-  overflow: auto; }
+  overflow: auto;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  transition: 0.5s ease; }
   .product-single h4 {
     margin-top: 0;
     font-size: 1.3em;
@@ -496,6 +497,30 @@ label {
     float: left;
     margin: -10px 0 0 -10px;
     padding-right: 1em; }
+
+.product-single:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+
+.product-page {
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  border-radius: .3em;
+  overflow: auto;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
+  .product-page img {
+    float: left;
+    margin: -10px 0 0 -10px;
+    padding-right: 1em;
+    max-width: 70%; }
+  .product-page h4 {
+    margin-top: -8px;
+    font-size: 1.5em;
+    margin-bottom: -10px; }
+  .product-page h5 {
+    font-size: 1.3em;
+    margin-bottom: -10px;
+    margin-top: 0px; }
 
 #left-side {
   float: left;
@@ -520,6 +545,10 @@ label {
   font-weight: 400;
   text-align: center; }
 
+.footer img {
+  max-width: 30%;
+  margin-top: -2px; }
+
 /*********************
 TINY MOBILE DEVICES
 *********************/
@@ -529,12 +558,12 @@ TINY MOBILE DEVICES
     float: left; }
 
   #left-side {
-    width: 40%;
-    font-size: 70%; }
+    width: 35%;
+    font-size: 80%; }
 
   #right-side {
-    margin-top: -20px;
-    font-size: 50%;
+    margin-top: -30px;
+    font-size: 70%;
     line-height: 20px; }
     #right-side a {
       margin-top: 25px; } }
