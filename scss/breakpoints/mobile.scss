@@ -3,17 +3,25 @@
 
 //products
 .product-single img{
-	max-width: 50%;
+	max-width: 40%;
 	float: left;
 }
 
 #left-side{
 	width: 40%;
+	font-size: 70%;
 }
 
 #right-side{
-	clear: both;
-	float: left;
+	//clear: both;
+	//float: left;
+	margin-top: -20px;
+	font-size: 50%;
+	line-height: 20px;
+
+	a{
+		margin-top: 25px;
+	}
 }
 
 //footer

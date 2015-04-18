@@ -8,6 +8,10 @@ html, body, .ui-header, .ui-title, .footer, form, input, label {
 	height: auto;
 }
 
+body{
+	font-size: 50%;
+}
+
 //mobile base styles
 
 .top img {
@@ -51,6 +55,10 @@ img{
 form h2, .barcode h2 {
 	margin-top: -10px;
 	color: white;
+}
+
+label{
+	font-size: 0.5em;
 }
 
 //scan page 

@@ -423,6 +423,9 @@ html, body, .ui-header, .ui-title, .footer, form, input, label {
   text-shadow: none !important;
   height: auto; }
 
+body {
+  font-size: 50%; }
+
 .top img {
   float: right;
   margin: 5px;
@@ -457,6 +460,9 @@ img {
 form h2, .barcode h2 {
   margin-top: -10px;
   color: white; }
+
+label {
+  font-size: 0.5em; }
 
 .barcode p {
   color: white;
@@ -519,15 +525,19 @@ TINY MOBILE DEVICES
 *********************/
 @media only screen and (max-width: 515px) {
   .product-single img {
-    max-width: 50%;
+    max-width: 40%;
     float: left; }
 
   #left-side {
-    width: 40%; }
+    width: 40%;
+    font-size: 70%; }
 
   #right-side {
-    clear: both;
-    float: left; } }
+    margin-top: -20px;
+    font-size: 50%;
+    line-height: 20px; }
+    #right-side a {
+      margin-top: 25px; } }
 /*********************
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and
