@@ -400,7 +400,7 @@ I mean, you can do whatever you want. The world is your oyster. Unless
 you hate oysters, then the world is your peanut butter & jelly sandwich.
 *********************/
 .footer .ui-btn {
-  width: 22%;
+  width: 25%;
   text-shadow: none !important; }
 
 #current {
@@ -543,7 +543,7 @@ label {
 .footer a {
   border: none;
   box-shadow: none;
-  width: 130px; }
+  margin-left: 1%; }
 
 .footer p {
   font-weight: 400;
