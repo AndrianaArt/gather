@@ -61,6 +61,14 @@ label{
 	font-size: 0.5em;
 }
 
+//refine search active number
+#act{
+	position: absolute;
+	z-index: 2;
+	left: 76%;
+	margin-top: 11px;
+}
+
 //scan page 
 
 .barcode p {
@@ -88,7 +96,6 @@ label{
 	background-color: white;
 	border-radius: .3em;
 	overflow: auto;
-	@include card(1);
 	transition: 0.5s ease;
 
 	h4{
@@ -119,7 +126,6 @@ label{
 	background-color: white;
 	border-radius: .3em;
 	overflow: auto;
-	@include card(1);
 
 	img{
 	float:left;
@@ -159,12 +165,13 @@ label{
 //footer styles
 
 .footer{
-	background-color: $gather-dark !important;
-	height: 50px;
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: stretch;
-	padding-left: 5px;
+	background-color: $gather-light !important;
+}
+
+.footer a{
+	border: none;
+	box-shadow: none;
+	width: 130px;
 }
 
 .footer p {

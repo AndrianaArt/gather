@@ -464,6 +464,12 @@ form h2, .barcode h2 {
 label {
   font-size: 0.5em; }
 
+#act {
+  position: absolute;
+  z-index: 2;
+  left: 76%;
+  margin-top: 11px; }
+
 .barcode p {
   color: white;
   text-align: center; }
@@ -484,7 +490,6 @@ label {
   background-color: white;
   border-radius: .3em;
   overflow: auto;
-  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   transition: 0.5s ease; }
   .product-single h4 {
     margin-top: 0;
@@ -506,8 +511,7 @@ label {
   margin: 10px;
   background-color: white;
   border-radius: .3em;
-  overflow: auto;
-  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
+  overflow: auto; }
   .product-page img {
     float: left;
     margin: -10px 0 0 -10px;
@@ -534,12 +538,12 @@ label {
   max-width: none; }
 
 .footer {
-  background-color: #475121 !important;
-  height: 50px;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  padding-left: 5px; }
+  background-color: #a3b863 !important; }
+
+.footer a {
+  border: none;
+  box-shadow: none;
+  width: 130px; }
 
 .footer p {
   font-weight: 400;
