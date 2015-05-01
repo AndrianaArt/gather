@@ -24,7 +24,7 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	text-shadow: none;
+	text-shadow: none !important;
 	  font-family: sans-serif /*{global-font-family}*/;
 }
 legend,
@@ -76,8 +76,10 @@ label.ui-btn {
 	font-weight: bold;
 	border-width: 1px;
 	border-style: solid;
+	text-shadow: none !important;
 }
 .ui-btn {
+	text-shadow: none !important;
 	text-decoration: none !important;
 }
 .ui-btn-active {
@@ -101,18 +103,21 @@ label.ui-btn {
 .ui-li-count {
 	-webkit-border-radius: 0.3em /*{global-radii-buttons}*/;
 	border-radius: 0.3em /*{global-radii-buttons}*/;
+	text-shadow: none !important;
 }
 /* Icon-only buttons */
 .ui-btn-icon-notext.ui-btn-corner-all,
 .ui-btn-icon-notext.ui-corner-all {
 	-webkit-border-radius: 1em;
 	border-radius: 1em;
+	text-shadow: none !important;
 }
 /* Radius clip workaround for cleaning up corner trapping */
 .ui-btn-corner-all,
 .ui-corner-all {
 	-webkit-background-clip: padding;
 	background-clip: padding-box;
+	text-shadow: none !important;
 }
 /* Popup arrow */
 .ui-popup.ui-corner-all > .ui-popup-arrow-guide {
@@ -120,6 +125,7 @@ label.ui-btn {
 	right: 0.3em /*{global-radii-blocks}*/;
 	top: 0.3em /*{global-radii-blocks}*/;
 	bottom: 0.3em /*{global-radii-blocks}*/;
+	text-shadow: none !important;
 }
 /* Shadow
 -----------------------------------------------------------------------------------------------------------*/
@@ -183,20 +189,24 @@ html .ui-alt-icon .ui-radio-off:after {
 	width: 18px;
 	height: 18px;
 	margin: -9px 2px 0 2px;
+	text-shadow: none !important;
 }
 .ui-checkbox-off:after,
 .ui-btn.ui-radio-off:after {
 	filter: Alpha(Opacity=30);
 	opacity: .3;
+	text-shadow: none !important;
 }
 .ui-btn.ui-checkbox-off:after,
 .ui-btn.ui-checkbox-on:after {
 	-webkit-border-radius: .1875em;
 	border-radius: .1875em;
+	text-shadow: none !important;
 }
 .ui-btn.ui-checkbox-off:after {
 	background-color: #666;
 	background-color: rgba(0,0,0,.3);
+	text-shadow: none !important;
 }
 .ui-radio .ui-btn.ui-radio-on:after {
 	background-image: none;
@@ -204,11 +214,13 @@ html .ui-alt-icon .ui-radio-off:after {
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
-	border-style: solid; 
+	border-style: solid;
+	text-shadow: none !important;
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
 	background-color: #000;
+	text-shadow: none !important;
 }
 /* Loader */
 .ui-icon-loading {
@@ -228,10 +240,12 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	border: none;
 	color: #333333;
 	font-weight: bold;
+	text-shadow: none !important;
 }
 .ui-bar-a {
 	border-width: 1px;
 	border-style: solid;
+	text-shadow: none !important;
 }
 /* Page and overlay */
 .ui-overlay-a,
@@ -240,6 +254,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 	background-color: #e5e5e4;
 	border: none;
 	color: #333333;
+	text-shadow: none !important;
 }
 /* Body: Read-only lists, text inputs, collapsible content */
 .ui-body-a,
@@ -251,10 +266,12 @@ html .ui-panel-page-container-a {
 	background-color: #ffffff ;
 	border: none;
 	color: #333333 ;
+	text-shadow: none !important;
 }
 .ui-body-a {
 	border-width: 1px;
 	border-style: solid;
+	text-shadow: none !important;
 }
 /* Links */
 .ui-page-theme-a a,
@@ -263,6 +280,7 @@ html .ui-body-a a,
 html body .ui-group-theme-a a {
 	color: #a3b853 /*{a-link-color}*/;
 	font-weight: bold;
+	text-shadow: none !important;
 }
 .ui-page-theme-a a:visited,
 html .ui-bar-a a:visited,
@@ -297,6 +315,7 @@ html head + body .ui-btn.ui-btn-a:visited {
 	background-color: #a3b853 /*{a-bup-background-color}*/;
 	border-color: #a3b853 /*{a-bup-border}*/;
 	color: #501835 /*{a-bup-color}*/;
+	text-shadow: none !important;
 }
 /* Button hover */
 .ui-page-theme-a .ui-btn:hover,
@@ -345,6 +364,7 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background-color: #475121 /*{a-active-background-color}*/;
 	border-color: #475121 /*{a-active-border}*/;
 	color: #ffffff /*{a-active-color}*/;
+	text-shadow: none !important;
 }
 /* Active radio button icon */
 .ui-page-theme-a .ui-radio-on:after,
@@ -370,6 +390,7 @@ html head + body .ui-body-a.ui-focus {
 	-webkit-box-shadow: 0 0 12px #475121 /*{a-active-background-color}*/;
 	-moz-box-shadow: 0 0 12px #475121 /*{a-active-background-color}*/;
 	box-shadow: 0 0 12px #475121 /*{a-active-background-color}*/;
+	text-shadow: none !important;
 }
 /* B
 -----------------------------------------------------------------------------------------------------------*/
