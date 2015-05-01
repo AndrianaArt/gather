@@ -74,6 +74,7 @@ label{
 .barcode p {
 	color: white;
 	text-align: center;
+	font-weight: 100;
 }
 
 .scan {
@@ -85,9 +86,18 @@ label{
 
 //product styles
 
-.product h3{
+.product{
+	h3{
 	color: $gather-accent;
 	font-weight: 400;
+	} 
+	a{
+	text-decoration: none;
+	color: $gather-accent !important;
+	}
+	a:hover, a:focus{
+		color: lighten($gather-accent, 10%) !important;
+	}
 }
 
 .product-single {

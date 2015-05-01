@@ -95,7 +95,7 @@
           <div class="product-single">
             <a href="#pear" data-transition="slide"><img src="img/prickly_pear.png" alt="prickly pear"></a>
             <div id="left-side">
-              <h4>Prickly Pear</h4>
+              <h4><a href="#pear" data-transition="slide">Prickly Pear</a></h4>
               <p>Fresh Farms</p>
               <p>ORG</p>
             </div>
@@ -220,7 +220,7 @@
       <input type="search" id="search" placeholder="Product name..." />
     </form>
       <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" data-transition="slide" >
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
         <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
       </fieldset>
     </div>  

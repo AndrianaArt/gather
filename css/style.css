@@ -399,6 +399,18 @@ We can break them up as much as we want or just keep them all in one.
 I mean, you can do whatever you want. The world is your oyster. Unless
 you hate oysters, then the world is your peanut butter & jelly sandwich.
 *********************/
+.searchbar input {
+  text-shadow: none !important; }
+
+#search h3 {
+  text-shadow: none !important; }
+
+.select {
+  text-shadow: none !important; }
+
+#rightside a {
+  text-shadow: none !important; }
+
 .footer .ui-btn {
   width: 25%;
   text-shadow: none !important; }
@@ -472,7 +484,8 @@ label {
 
 .barcode p {
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-weight: 100; }
 
 .scan {
   background-color: white;
@@ -483,6 +496,11 @@ label {
 .product h3 {
   color: #501835;
   font-weight: 400; }
+.product a {
+  text-decoration: none;
+  color: #501835 !important; }
+.product a:hover, .product a:focus {
+  color: #77244f !important; }
 
 .product-single {
   padding: 15px;
