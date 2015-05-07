@@ -108,23 +108,23 @@
           </div>
 
           <div class="product-single">
-            <a href=""><img src="img/summer_beer.png" alt="summer solstice ale"></a>
+            <a href="#ale"><img src="img/summer_beer.png" alt="summer solstice ale"></a>
             <div id="left-side">
-              <h4><a href="#" data-transition="slide">Summer Solstice Ale</a></h4>
+              <h4><a href="#ale" data-transition="slide">Summer Solstice Ale</a></h4>
               <p>Anderson Valley Brewing Company</p>
-              <p>N/A</p>
+              <p>Vegan</p>
             </div>
             <div id="right-side">
-              <h5>$8.99/ea</h5>
+              <h5>$8.99/pk</h5>
               <p>SPECIALTY</p>
               <a href="#" data-role="button">1S</a>
             </div>
           </div>
 
           <div class="product-single">
-            <a href=""><img src="img/squash.png" alt="summer squash"></a>
+            <a href="#squash"><img src="img/squash.png" alt="summer squash"></a>
             <div id="left-side">
-              <h4><a href="#" data-transition="slide">Crooked Neck Squash</a></h4>
+              <h4><a href="#squash" data-transition="slide">Crooked Neck Squash</a></h4>
               <p>Burto's Valley</p>
               <p>ORG</p>
             </div>
@@ -207,7 +207,7 @@
 
 </div><!-- /page three-->
 
-<!--Product Page-->
+<!--Product Page : Prickly Pear-->
 <div data-role="page" id="pear">
   <div data-role="header" data-position="inline" class="top">
     <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
@@ -232,7 +232,7 @@
           <p>Fresh Farms</p>
           <h5>$2.49/ea</h5>
           <p>PRODUCE</p>
-          <p>Organic</p>
+          <p>organic</p>
           <a href="#" data-role="button">3P</a>
         </div>
         <h5>ingredients:</h5>
@@ -251,6 +251,96 @@
   </div><!-- /footer-->
 
 </div><!-- /page four-->
+
+<!--Product Page : Summer Solstice Ale-->
+<div data-role="page" id="ale">
+  <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
+    </form>
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
+      </fieldset>
+    </div>  
+      <div class="product-page">
+        <img src="img/summer_beer.png" alt="summer beer">
+        <div id="product-info">
+          <h4>Summer Solstice Ale</h4>
+          <p>Anderson Vally Brewing Company</p>
+          <h5>$8.99/pk</h5>
+          <p>SPECIALY</p>
+          <p>vegan</p>
+          <a href="#" data-role="button">Aisle 1S</a>
+        </div>
+        <h5>ingredients:</h5>
+        <p>cream ale, 5.00% ABV</p>
+        <h5>description:</h5>
+        <p>Our Summer Solstice Seasonal Ale is a slightly sweet, malty session beer with a creamy mouth feel and clean finish. With hints of caramel in the nose and a touch of spice, it’s become affectionately known as “cream soda for adults”. The unique flavors and superior drinkability make for the ultimate refreshment on a hot summer day.</p>
+        <a href="#" data-role="button">similar products</a>
+        <a href="#" data-role="button">more from brand</a>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page five-->
+
+<!--Product Page : Crooked Neck Squash-->
+<div data-role="page" id="squash">
+  <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
+    </form>
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
+      </fieldset>
+    </div>  
+      <div class="product-page">
+        <img src="img/squash.png" alt="summer beer">
+        <div id="product-info">
+          <h4>Crooked Neck Squash</h4>
+          <p>Burto's Valley</p>
+          <h5>$1.29/lb</h5>
+          <p>PRODUCE</p>
+          <p>organic</p>
+          <a href="#" data-role="button">Aisle 2P</a>
+        </div>
+        <h5>ingredients:</h5>
+        <p>organic yellow crooked neck summer squash</p>
+        <h5>description:</h5>
+        <p>Crookneck squash is a type of cultivar of Cucurbita pepo, the species that also includes some pumpkins and most other summer squashes. The plants are bushy and do not spread like the plants of winter squash and pumpkin.</p>
+        <a href="#" data-role="button">similar products</a>
+        <a href="#" data-role="button">more from brand</a>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page six-->
 
 </body>
 </html>
