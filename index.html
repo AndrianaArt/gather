@@ -18,6 +18,7 @@
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <script src="js/jquery.ui.touch-punch.min.js"></script>
   <script src="js/map-scroll.js"></script>
+  <script src="js/jquery.panzoom.min.js"></script>
 
 </head>
 
@@ -195,7 +196,7 @@
     </form>
     </div>  
     <div id="storemap">
-      <img src="img/store_map.png" width="750" height="593" alt="store map">
+      <img class="panzoom-elements" src="img/store_map.png" width="750" height="593" alt="store map">
     </div>
   </div><!-- /content-->
 
@@ -204,7 +205,12 @@
     <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
     <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
-
+  <script>
+    $(".panzoom-elements").panzoom({
+      minScale: 0,
+      $zoomRange: $("input[type='range']")
+    });
+  </script>
 </div><!-- /page three-->
 
 <!--Product Page : Prickly Pear-->
@@ -341,6 +347,7 @@
   </div><!-- /footer-->
 
 </div><!-- /page six-->
+
 
 </body>
 </html>
