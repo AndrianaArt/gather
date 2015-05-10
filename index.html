@@ -37,7 +37,7 @@
         <input data-type="search" id="pre-rendered-filterable" placeholder="type product name here" />
         <div class="ui-controlgroup ui-controlgroup-vertical ui-corner-all" data-role="controlgroup" data-filter="true" data-input="#pre-rendered-filterable" data-filter-reveal="true" data-enhanced="true">
           <div class="ui-controlgroup-controls">
-            <a href="#" class="ui-screen-hidden" data-role="button">brownies, gluten free</a>
+            <a href="#chips" class="ui-screen-hidden" data-role="button">chips, organic</a>
           </div>
         </div>
         <p id="act">0 active</p>
@@ -360,6 +360,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_squash.png" width="750" height="593" alt="store map">
@@ -386,6 +387,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_ale.png" width="750" height="593" alt="store map">
@@ -412,6 +414,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_pear.png" width="750" height="593" alt="store map">
@@ -425,7 +428,230 @@
   </div><!-- /footer-->
 </div><!-- /page-->
 
-  <!-- pinch to zoom script -->
+<!-- Search results for Organic Chips-->
+  <div data-role="page" data-theme="a" id="chips">
+    <div data-role="header" data-position="inline" class="top">
+      <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+      <img src="img/settings.png" alt="cms menu">
+      <h1>Grocery Store Name</h1>
+    </div> <!-- /header -->
+    
+    <div data-role="content"> 
+       <div class="searchbar">
+        <h2>search results</h2>
+        <input data-type="search" id="pre-rendered-filterable" placeholder="chips, organic" />
+        <p id="act">1 active</p>
+        <div data-role="collapsible">
+        <h3>refine search</h3>
+            <fieldset data-role="controlgroup" data-type="horizontal">
+              <legend>dietary need:</legend>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-1b" id="checkbox-1b" class="custom" checked >
+              <label for="checkbox-1b">organic</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-2b" id="checkbox-2b" class="custom">
+              <label for="checkbox-2b">vegan</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-3b" id="checkbox-3b" class="custom">
+              <label for="checkbox-3b">vegetarian</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-4b" id="checkbox-4b" class="custom">
+              <label for="checkbox-4b">gluten free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-5b" id="checkbox-5b" class="custom">
+              <label for="checkbox-5b">dairy free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-6b" id="checkbox-6b" class="custom">
+              <label for="checkbox-6b">sugar free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-7b" id="checkbox-7b" class="custom">
+              <label for="checkbox-7b">wheat free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-8b" id="checkbox-8b" class="custom">
+              <label for="checkbox-8b">raw food</label>
+              </div>
+            </fieldset>
+          
+          <div>
+            <label for="select-choice-0" class="select">department:</label>
+            <select name="select-choice-0" id="select-choice-0">
+              <option value="all">all departments</option>
+              <option value="bakery">bakery</option>
+              <option value="grocery">grocery</option>
+              <option value="produce">produce</option>
+              <option value="meat">meat</option>
+              <option value="seafood">seafood</option>
+              <option value="prep-foods">prepared foods</option>
+              <option value="specialty">specialty</option>
+              <option value="coffee">coffee &amp; tea</option>
+            </select>
+          </div>
+          <input type="submit" value="SEARCH">
+          </div><!-- /collapsable -->
+        </div><!-- /search bar -->
+
+    <div class="product">
+          <div class="product-single">
+            <a href="#seasalt" data-transition="slide"><img src="img/kettle_seasalt.jpg" alt="kettle seasalt chips"></a>
+            <div id="left-side">
+              <h4><a href="#seasalt" data-transition="slide">Sea Salt Potato Chips</a></h4>
+              <p>Kettle Brand</p>
+              <p>ORG</p>
+            </div>
+            <div id="right-side">
+              <h5>$5.99/ea</h5>
+              <p>GROCERY</p>
+              <a href="#map_chips" data-role="button">14G</a>
+            </div>
+          </div>
+
+          <div class="product-single">
+            <a href="#"><img src="img/latejuly_lime.jpg" alt="late july lime chips"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Lime Tortilla Chips</a></h4>
+              <p>Late July</p>
+              <p>ORG, Gluten Free</p>
+            </div>
+            <div id="right-side">
+              <h5>$7.99/ea</h5>
+              <p>GROCERY</p>
+              <a href="#" data-role="button">8G</a>
+            </div>
+          </div>
+
+          <div class="product-single">
+            <a href="#"><img src="img/lundberg_chips.jpg" alt="lundberg chips"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Rice Chips</a></h4>
+              <p>Lundberg Family Farms</p>
+              <p>ORG, Gluten Free, Vegan</p>
+            </div>
+            <div id="right-side">
+              <h5>$6.49/ea</h5>
+              <p>GROCERY</p>
+              <a href="#" data-role="button">8G</a>
+            </div>
+          </div>
+
+          <div class="product-single">
+            <a href="#" data-transition="slide"><img src="img/kettle_bbq.jpg" alt="kettle bbq chips"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">BBQ Potato Chips</a></h4>
+              <p>Kettle Brand</p>
+              <p>ORG</p>
+            </div>
+            <div id="right-side">
+              <h5>$5.99/ea</h5>
+              <p>GROCERY</p>
+              <a href="#" data-role="button">14G</a>
+            </div>
+          </div>
+
+          <div class="product-single">
+            <a href="#" data-transition="slide"><img src="img/kettle_pepper.jpg" alt="kettle bbq chips"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Salt &amp; Pepper Potato Chips</a></h4>
+              <p>Kettle Brand</p>
+              <p>ORG</p>
+            </div>
+            <div id="right-side">
+              <h5>$5.99/ea</h5>
+              <p>GROCERY</p>
+              <a href="#" data-role="button">14G</a>
+            </div>
+          </div>
+
+      </div> <!-- /product -->
+
+    </div><!-- /content-->
+
+    <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+      <a href="#home" id="current" class="ui-state-persist"><img src="img/serach.png" alt="search page"></a>
+      <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+      <a href="#map" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+    </div><!-- /footer-->
+  </div><!-- /page one-->
+
+<!--Product Page : Kettle Sea Salt Chips-->
+<div data-role="page" id="seasalt">
+  <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
+    </form>
+      <fieldset data-role="controlgroup" data-type="horizontal">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
+      </fieldset>
+    </div>  
+      <div class="product-page">
+        <img src="img/kettle_seasalt.jpg" alt="kettle sea salt chips">
+        <div id="product-info">
+          <h4>Sea Salt Potato Chips</h4>
+          <p>Kettle Brand</p>
+          <h5>$5.99/ea</h5>
+          <p>GROCERY</p>
+          <p>organic</p>
+          <a href="#map_chips" data-role="button">Aisle 14G</a>
+        </div>
+        <h5>ingredients:</h5>
+        <p>organic potatoes, organic vegetable oil (safflower and/or sunflower oil), sea salt</p>
+        <h5>description:</h5>
+        <p>We searched high and low for undisputed organic potato excellence. Determined not to disrupt this flawless, spudsy goodness, we hand cook these beauties in small batches and coat them with a gentle kiss of salt. Organic simplicity at its finest.</p>
+        <a href="#" data-role="button">similar products</a>
+        <a href="#" data-role="button">more from brand</a>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page-->
+
+<!-- Kettle Chips Map Page-->
+<div data-role="page" id="map_chips">
+  <div data-role="header" data-position="inline" class="top">
+    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="Product name..." />
+    </form>
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+    </div>  
+    <div id="storemap">
+      <img class="panzoom-elements" src="img/store_map_chips.png" width="750" height="593" alt="store map">
+    </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+</div><!-- /page-->
+
+<!-- pinch to zoom script -->
   <script>
     $(".panzoom-elements").panzoom({
       minScale: 0,
