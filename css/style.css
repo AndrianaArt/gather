@@ -383,14 +383,9 @@ body, .footer {
   body h1, body h2, body h3, body h4, body h5, body h6, .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
     color: #475121;
     font-weight: 300; }
-  body h1, .footer h1 {
-    color: white; }
   body h4, .footer h4 {
     font-weight: 700;
     color: #501835; }
-
-h1 {
-  color: #475121 !important; }
 
 /*********************
 IMPORTING MODULES
@@ -562,10 +557,6 @@ label {
   border: none;
   box-shadow: none;
   margin-left: 1%; }
-
-.footer p {
-  font-weight: 400;
-  text-align: center; }
 
 .footer img {
   max-width: 30%;
