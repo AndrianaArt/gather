@@ -102,9 +102,9 @@ label{
 
 .product-single {
 	padding: 15px;
-	margin: 10px;
+	margin: 0 -15px 0 -15px;
 	background-color: white;
-	border-radius: .3em;
+	border-bottom: 1px solid $gather-neutral;
 	overflow: auto;
 	transition: 0.5s ease;
 
@@ -121,7 +121,7 @@ label{
 	
 	img{
 	float:left;
-	margin: -10px 0 0 -10px;
+	margin: 0;
 	padding-right: 1em;
 	}
 }
