@@ -108,17 +108,17 @@
     <div class="product">
       <h3>new products to the store</h3>
           <div class="product-single">
-            <a href="#pear" data-transition="slide"><img src="img/prickly_pear.png" alt="prickly pear"></a>
+            <a href="#dragon" data-transition="slide"><img src="img/dragonfruit1.png" alt="dragon fruit"></a>
             <div id="left-side">
-              <h4><a href="#pear" data-transition="slide">Prickly Pear</a></h4>
-              <p>Fresh Farms</p>
+              <h4><a href="#dragon" data-transition="slide">Pitaya "Dragon Fruit"</a></h4>
+              <p>Francis Family Farms</p>
               <p class="dietary">organic</p>
             </div>
             <div id="right-side">
-              <h5>$2.49/ea</h5>
+              <h5>$2.99/ea</h5>
               <p>PRODUCE</p>
-              <p>aisle 3P</p>
-              <a href="#map_pear" data-role="button" data-transition="slide">view on map</a>
+              <p>aisle 1P</p>
+              <a href="#map_dragon" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
 
@@ -127,7 +127,6 @@
             <div id="left-side">
               <h4><a href="#ale" data-transition="slide">Summer Solstice Ale</a></h4>
               <p>Anderson Valley Brewing Company</p>
-              <p class="dietary">vegan</p>
             </div>
             <div id="right-side">
               <h5>$8.99/pk</h5>
@@ -138,20 +137,19 @@
           </div>
 
           <div class="product-single">
-            <a href="#squash" data-transition="slide"><img src="img/squash.png" alt="summer squash"></a>
+            <a href="#pear" data-transition="slide"><img src="img/prickly_pear.png" alt="prickly pear"></a>
             <div id="left-side">
-              <h4><a href="#squash" data-transition="slide">Crooked Neck Squash</a></h4>
-              <p>Burto's Valley</p>
+              <h4><a href="#pear" data-transition="slide">Prickly Pear</a></h4>
+              <p>Fresh Farms</p>
               <p class="dietary">organic</p>
             </div>
             <div id="right-side">
-              <h5>$1.29/lb</h5>
+              <h5>$2.49/lb</h5>
               <p>PRODUCE</p>
-              <p>aisle 2P</p>
-              <a href="#map_squash" data-role="button" data-transition="slide">view on map</a>
+              <p>aisle 3P</p>
+              <a href="#map_pear" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
-
       </div> <!-- /product -->
 
     </div><!-- /content-->
@@ -221,7 +219,78 @@
   </div><!-- /footer-->
 </div><!-- /page three-->
 
-<!--Product Page : Prickly Pear-->
+<!--Product Page : Dragonfruit -->
+<div data-role="page" id="dragon">
+  <div data-role="header" data-position="fixed" class="top">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="pitaya" />
+    </form>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
+    </div>  
+      <div class="product-page">
+        <img src="img/dragonfruit2.png" alt="dragon fruit cut">
+        <div class="product-info">
+          <h4>Pitaya "Dragon Fruit"</h4>
+          <p>Francis Family Farms</p>
+          <h5>$2.99/ea</h5>
+          <p class="stock">in-stock</p>
+          <p>PRODUCE</p>
+          <p>aisle 1P</p>
+          <p class="dietary">organic</p>
+          <a href="#map_dragon" data-role="button" data-transition="slide">view on map</a>
+        </div>
+      <p>Sweet pitayas have a creamy pulp and a delicate aroma. The fruit's texture is sometimes likened to that of the kiwifruit because of its black, crunchy seeds. These fruits are commonly known in English as "dragon fruit", reflecting its vernacular Asian names. Pitahaya-producing cacti of the genus Hylocereus are originally native to Mexico. They were transplanted to Central America and to other parts of the world.</p>
+        <h5>Preparation:</h5>
+        <p>To prepare a pitaya for consumption, the fruit is cut open to expose the flesh. The flesh, which is eaten raw, is mildly sweet and low in calories. The seeds are eaten together with the flesh, have a nutty taste and are rich in lipids, but they are indigestible unless chewed.</p>
+        <p>Ingredients: pitaya fruit (hylocereus undatus)</p>
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">similar products</a>
+          <a href="#" data-role="button">more from brand</a>
+        </fieldset>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page dragonfruit-->
+
+<!-- Dragon Map Page-->
+<div data-role="page" id="map_dragon">
+  <div data-role="header" data-position="fixed" class="top">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="pitaya" />
+    </form>
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+    </div>  
+    <div id="storemap">
+      <img class="panzoom-elements" src="img/store_map_dragon.png" width="750" height="593" alt="store map">
+    </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+</div><!-- /page-->
+
+<!--Product Page : Prickly Pear -->
 <div data-role="page" id="pear">
   <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
@@ -240,7 +309,7 @@
         <div class="product-info">
           <h4>Prickly Pear</h4>
           <p>Fresh Farms</p>
-          <h5>$2.49/ea</h5>
+          <h5>$2.49/lb</h5>
           <p class="stock">in-stock</p>
           <p>PRODUCE</p>
           <p>aisle 3P</p>
@@ -248,10 +317,9 @@
           <a href="#map_pear" data-role="button" data-transition="slide">view on map</a>
         </div>
         <p>The prickly pear plant has three different edible sections: the pad of the cactus (nopal), which can be treated like a vegetable, the petals of the flowers, which can be added to salads, and the pear (tuna), which can be treated like a fruit. They grow wild throughout the American southwest, down to South America and up to Canada. The ones you may find at a local store or farmers market will surely originate from a commercial nopal farm.</p>
-        <h5>preparation:</h5>
+        <h5>Preparation:</h5>
         <p>cut off both ends of the fruit, carve away the thorny skin, remove the seeds, and enjoy!</p>
-        <h5>ingredients:</h5>
-        <p>prickly pear fruit</p>
+        <p>Ingredients: prickly pear fruit</p>
         <fieldset data-role="controlgroup" data-type="horizontal">
           <a href="#" data-role="button">similar products</a>
           <a href="#" data-role="button">more from brand</a>
@@ -265,143 +333,7 @@
     <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
 
-</div><!-- /page four-->
-
-<!--Product Page : Summer Solstice Ale-->
-<div data-role="page" id="ale">
-  <div data-role="header" data-position="fixed" class="top">
-    <img src="img/settings.png" alt="cms menu">
-    <h1>Grocery Store Name</h1>
-  </div> <!-- /header -->
-
-  <div data-role="content">
-    <div class="searchbar">
-    <form>
-      <input type="search" id="search" placeholder="Product name..." />
-    </form>
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
-    </div>  
-      <div class="product-page">
-        <img src="img/summer_beer.png" alt="summer beer">
-        <div id="product-info">
-          <h4>Summer Solstice Ale</h4>
-          <p>Anderson Vally Brewing Company</p>
-          <h5>$8.99/pk</h5>
-          <p>SPECIALY</p>
-          <p>vegan</p>
-          <a href="#map_ale" data-role="button">Aisle 1S</a>
-        </div>
-        <h5>description:</h5>
-        <p>Our Summer Solstice Seasonal Ale is a slightly sweet, malty session beer with a creamy mouth feel and clean finish. With hints of caramel in the nose and a touch of spice, it’s become affectionately known as “cream soda for adults”. The unique flavors and superior drinkability make for the ultimate refreshment on a hot summer day.</p>
-        <h5>ingredients:</h5>
-        <p>cream ale, 5.00% ABV</p>
-        <a href="#" data-role="button">similar products</a>
-        <a href="#" data-role="button">more from brand</a>
-      </div>
-  </div><!-- /content-->
-
-  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
-    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
-    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
-  </div><!-- /footer-->
-
-</div><!-- /page five-->
-
-<!--Product Page : Crooked Neck Squash-->
-<div data-role="page" id="squash">
-  <div data-role="header" data-position="fixed" class="top">
-    <img src="img/settings.png" alt="cms menu">
-    <h1>Grocery Store Name</h1>
-  </div> <!-- /header -->
-
-  <div data-role="content">
-    <div class="searchbar">
-    <form>
-      <input type="search" id="search" placeholder="Product name..." />
-    </form>
-      <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-      </fieldset>
-    </div>  
-      <div class="product-page">
-        <img src="img/squash.png" alt="summer beer">
-        <div id="product-info">
-          <h4>Crooked Neck Squash</h4>
-          <p>Burto's Valley</p>
-          <h5>$1.29/lb</h5>
-          <p>PRODUCE</p>
-          <p>organic</p>
-          <a href="#map_squash" data-role="button">Aisle 2P</a>
-        </div>
-        <h5>ingredients:</h5>
-        <p>organic yellow crooked neck summer squash</p>
-        <h5>description:</h5>
-        <p>Crookneck squash is a type of cultivar of Cucurbita pepo, the species that also includes some pumpkins and most other summer squashes. The plants are bushy and do not spread like the plants of winter squash and pumpkin.</p>
-        <a href="#" data-role="button">similar products</a>
-        <a href="#" data-role="button">more from brand</a>
-      </div>
-  </div><!-- /content-->
-
-  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
-    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
-    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
-  </div><!-- /footer-->
-
-</div><!-- /page six-->
-
-<!-- Squash Map Page-->
-<div data-role="page" id="map_squash">
-  <div data-role="header" data-position="fixed" class="top">
-    <img src="img/settings.png" alt="cms menu">
-    <h1>Grocery Store Name</h1>
-  </div> <!-- /header -->
-
-  <div data-role="content">
-    <div class="searchbar">
-    <form>
-      <input type="search" id="search" placeholder="Product name..." />
-    </form>
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-direction="reverse" onClick="history.go(-1);return true;">
-    </div>  
-    <div id="storemap">
-      <img class="panzoom-elements" src="img/store_map_squash.png" width="750" height="593" alt="store map">
-    </div>
-  </div><!-- /content-->
-
-  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
-    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
-    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
-  </div><!-- /footer-->
-</div><!-- /page-->
-
-<!-- Ale Map Page-->
-<div data-role="page" id="map_ale">
-  <div data-role="header" data-position="fixed" class="top">
-    <img src="img/settings.png" alt="cms menu">
-    <h1>Grocery Store Name</h1>
-  </div> <!-- /header -->
-
-  <div data-role="content">
-    <div class="searchbar">
-    <form>
-      <input type="search" id="search" placeholder="Product name..." />
-    </form>
-    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-    </div>  
-    <div id="storemap">
-      <img class="panzoom-elements" src="img/store_map_ale.png" width="750" height="593" alt="store map">
-    </div>
-  </div><!-- /content-->
-
-  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
-    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
-    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
-    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
-  </div><!-- /footer-->
-</div><!-- /page-->
+</div><!-- /page pear-->
 
 <!-- Pear Map Page-->
 <div data-role="page" id="map_pear">
@@ -413,12 +345,87 @@
   <div data-role="content">
     <div class="searchbar">
     <form>
-      <input type="search" id="search" placeholder="Product name..." />
+      <input type="search" id="search" placeholder="organic prickly pear" />
     </form>
     <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_pear.png" width="750" height="593" alt="store map">
+    </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-direction="reverse" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+</div><!-- /page-->
+
+<!--Product Page : Ale -->
+<div data-role="page" id="ale">
+  <div data-role="header" data-position="fixed" class="top">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="summer solstice ale" />
+    </form>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
+    </div>  
+      <div class="product-page">
+        <img src="img/summer_beer.png" alt="beer">
+        <div class="product-info">
+          <h4>Summer Solstice Ale</h4>
+          <p>Anderson Valley Brewing Co.</p>
+          <h5>$8.99/pk</h5>
+          <p class="stock">in-stock</p>
+          <p>SPECIALTY</p>
+          <p>aisle 1S</p>
+          </br>
+          <a href="#map_ale" data-role="button" data-transition="slide">view on map</a>
+        </div>
+        <p>Summer Solstice® is a slightly sweet, malty session beer with a creamy mouth feel and clean finish.  With hints of caramel in the nose and a touch of spice, it’s become affectionately known as “cream soda for adults”. The unique flavors and superior drinkability make for the ultimate refreshment on a hot summer day.</p>
+        <h5>Pairings:</h5>
+        <p>Sweet potato fries, barbecue chicken, ginger beef kabobs, S’mores, mascarpone, and brie cheese.</p>
+        <p>Glassware: pint glass</p>
+        <p>ALC/VOL: 5%</p>
+        <p>Bitterness: 6 IBU</p>
+        <p>Malts: Pale Two-Row, Crystal (40L and 80L)</p>
+        <p>Hops: Bravo</p>
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">similar products</a>
+          <a href="#" data-role="button">more from brand</a>
+        </fieldset>
+      </div>
+  </div><!-- /content-->
+
+  <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+    <a href="#home" data-direction="reverse" data-transition="slide"><img src="img/serach.png" alt="search page"></a>
+    <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+    <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+  </div><!-- /footer-->
+
+</div><!-- /page ale-->
+
+<!-- Ale Map Page-->
+<div data-role="page" id="map_ale">
+  <div data-role="header" data-position="fixed" class="top">
+    <img src="img/settings.png" alt="cms menu">
+    <h1>Grocery Store Name</h1>
+  </div> <!-- /header -->
+
+  <div data-role="content">
+    <div class="searchbar">
+    <form>
+      <input type="search" id="search" placeholder="summer solstic ale" />
+    </form>
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+    </div>  
+    <div id="storemap">
+      <img class="panzoom-elements" src="img/store_map_ale.png" width="750" height="593" alt="store map">
     </div>
   </div><!-- /content-->
 
@@ -591,7 +598,7 @@
     </div><!-- /footer-->
   </div><!-- /page one-->
 
-<!--Product Page : Kettle Sea Salt Chips-->
+<!--Product Page : chips -->
 <div data-role="page" id="seasalt">
   <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
@@ -601,28 +608,30 @@
   <div data-role="content">
     <div class="searchbar">
     <form>
-      <input type="search" id="search" placeholder="Product name..." />
+      <input type="search" id="search" placeholder="organic sea salt potato chips" />
     </form>
-      <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-      </fieldset>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
       <div class="product-page">
-        <img src="img/kettle_seasalt.jpg" alt="kettle sea salt chips">
-        <div id="product-info">
+        <img src="img/kettle_seasalt.jpg" alt="sea salt chips">
+        <div class="product-info">
           <h4>Sea Salt Potato Chips</h4>
           <p>Kettle Brand</p>
           <h5>$5.99/ea</h5>
+          <p class="stock">in-stock</p>
           <p>GROCERY</p>
-          <p>organic</p>
-          <a href="#map_chips" data-role="button">Aisle 14G</a>
+          <p>aisle 14G</p>
+          <p class="dietary">organic</p>
+          <a href="#map_chips" data-role="button" data-transition="slide">view on map</a>
         </div>
-        <h5>ingredients:</h5>
-        <p>organic potatoes, organic vegetable oil (safflower and/or sunflower oil), sea salt</p>
-        <h5>description:</h5>
-        <p>We searched high and low for undisputed organic potato excellence. Determined not to disrupt this flawless, spudsy goodness, we hand cook these beauties in small batches and coat them with a gentle kiss of salt. Organic simplicity at its finest.</p>
-        <a href="#" data-role="button">similar products</a>
-        <a href="#" data-role="button">more from brand</a>
+      <p>We searched high and low for undisputed organic potato excellence. Determined not to disrupt this flawless, spudsy goodness, we hand cook these beauties in small batches and coat them with a gentle kiss of salt. Organic simplicity at its finest.</p>
+        <h5>Pairings:</h5>
+        <p>Goes well with any type of creamy or cheesey dip!</p>
+        <p>Ingredients: organic potatoes, organic vegetable oil (safflower and/or sunflower oil), sea salt</p>
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">similar products</a>
+          <a href="#" data-role="button">more from brand</a>
+        </fieldset>
       </div>
   </div><!-- /content-->
 
@@ -632,7 +641,7 @@
     <a href="#map" class="ui-state-persist" data-transition="slide"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
 
-</div><!-- /page-->
+</div><!-- /page chips-->
 
 <!-- Kettle Chips Map Page-->
 <div data-role="page" id="map_chips">
@@ -644,9 +653,9 @@
   <div data-role="content">
     <div class="searchbar">
     <form>
-      <input type="search" id="search" placeholder="Product name..." />
+      <input type="search" id="search" placeholder="organic sea salt potato chips" />
     </form>
-    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+    <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_chips.png" width="750" height="593" alt="store map">

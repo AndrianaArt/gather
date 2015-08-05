@@ -33,6 +33,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dragonfruit1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193161,
+		"inputAbbreviatedPath": "\/img\/dragonfruit1.png",
+		"outputAbbreviatedPath": "\/img\/dragonfruit1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dragonfruit2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176732,
+		"inputAbbreviatedPath": "\/img\/dragonfruit2.png",
+		"outputAbbreviatedPath": "\/img\/dragonfruit2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/empty_viewfinder.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -264,6 +286,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/store_map_dragon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330690,
+		"inputAbbreviatedPath": "\/img\/store_map_dragon.png",
+		"outputAbbreviatedPath": "\/img\/store_map_dragon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/store_map_pear.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -293,6 +326,17 @@
 		"initialSize": 86796,
 		"inputAbbreviatedPath": "\/img\/summer_beer.png",
 		"outputAbbreviatedPath": "\/img\/summer_beer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/summer_beer2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226411,
+		"inputAbbreviatedPath": "\/img\/summer_beer2.png",
+		"outputAbbreviatedPath": "\/img\/summer_beer2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
