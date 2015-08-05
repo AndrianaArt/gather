@@ -524,23 +524,29 @@ label {
 
 .product-page {
   padding: 15px;
-  margin: 10px;
+  margin: 10px -15px 0 -15px;
   background-color: white;
-  border-radius: .3em;
   overflow: auto; }
   .product-page img {
     float: left;
     margin: -10px 0 0 -10px;
-    padding-right: 1em;
-    max-width: 30%; }
+    padding: 8px;
+    max-width: 50%; }
   .product-page h4 {
-    margin-top: -8px;
-    font-size: 1.5em;
-    margin-bottom: -10px; }
+    margin-top: 7px;
+    margin-bottom: -3px;
+    font-size: 1.3em; }
   .product-page h5 {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-weight: 400;
     margin-bottom: -10px;
-    margin-top: 0px; }
+    margin-top: 0px;
+    color: #501835; }
+
+.product-info h4, .product-info h5, .product-info p {
+  line-height: .8em; }
+.product-info h5 {
+  margin-bottom: 0; }
 
 #left-side {
   float: left;
@@ -551,6 +557,10 @@ label {
   float: right;
   text-align: right; }
 
+.stock {
+  color: #A3B853;
+  font-style: oblique; }
+
 .dietary {
   color: #501835;
   font-weight: 700;
@@ -560,7 +570,7 @@ label {
   max-width: none; }
 
 .footer {
-  background-color: #a3b863 !important; }
+  background-color: #A3B853 !important; }
 
 .footer a {
   border: none;

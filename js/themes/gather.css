@@ -278,7 +278,7 @@ html .ui-panel-page-container-a {
 html .ui-bar-a a,
 html .ui-body-a a,
 html body .ui-group-theme-a a {
-	color: #a3b853 /*{a-link-color}*/;
+	color: #A3B853 /*{a-link-color}*/;
 	font-weight: bold;
 	text-shadow: none !important;
 }
@@ -286,19 +286,19 @@ html body .ui-group-theme-a a {
 html .ui-bar-a a:visited,
 html .ui-body-a a:visited,
 html body .ui-group-theme-a a:visited {
-    color: #5f6d2c /*{a-link-visited}*/;
+    color: #A3B853 /*{a-link-visited}*/;
 }
 .ui-page-theme-a a:hover,
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-	color: #475121 /*{a-link-hover}*/;
+	color: #5e6e10 /*{a-link-hover}*/;
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
 html .ui-body-a a:active,
 html body .ui-group-theme-a a:active {
-	color: #475121 /*{a-link-active}*/;
+	color: #5e6e10 /*{a-link-active}*/;
 }
 /* Button up */
 .ui-page-theme-a .ui-btn,
@@ -312,8 +312,8 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background-color: #a3b853 /*{a-bup-background-color}*/;
-	border-color: #a3b853 /*{a-bup-border}*/;
+	background-color: #A3B853 /*{a-bup-background-color}*/;
+	border-color: #A3B853 /*{a-bup-border}*/;
 	color: #501835 /*{a-bup-color}*/;
 	text-shadow: none !important;
 }
@@ -323,8 +323,8 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background-color: #85983e /*{a-bhover-background-color}*/;
-	border-color: #85983e /*{a-bhover-border}*/;
+	background-color: #718135 /*{a-bhover-background-color}*/;
+	border-color: #718135 /*{a-bhover-border}*/;
 	color: #501835 /*{a-bhover-color}*/;
 }
 /* Button down */
@@ -333,9 +333,9 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	background-color: #6c7b32 /*{a-bdown-background-color}*/;
-	border-color: #85983e /*{a-bdown-border}*/;
-	color: #501835 /*{a-bdown-color}*/;
+	background-color: #475121 /*{a-bdown-background-color}*/;
+	border-color: #475121 /*{a-bdown-border}*/;
+	color: #fff /*{a-bdown-color}*/;
 }
 /* Active button */
 .ui-page-theme-a .ui-btn.ui-btn-active,

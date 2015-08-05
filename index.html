@@ -118,7 +118,7 @@
               <h5>$2.49/ea</h5>
               <p>PRODUCE</p>
               <p>aisle 3P</p>
-              <a href="#map_pear" data-role="button">view on map</a>
+              <a href="#map_pear" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
 
@@ -133,7 +133,7 @@
               <h5>$8.99/pk</h5>
               <p>SPECIALTY</p>
               <p>aisle 1S</p>
-              <a href="#map_ale" data-role="button">view on map</a>
+              <a href="#map_ale" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
 
@@ -148,7 +148,7 @@
               <h5>$1.29/lb</h5>
               <p>PRODUCE</p>
               <p>aisle 2P</p>
-              <a href="#map_squash" data-role="button">view on map</a>
+              <a href="#map_squash" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
 
@@ -231,26 +231,31 @@
   <div data-role="content">
     <div class="searchbar">
     <form>
-      <input type="search" id="search" placeholder="Product name..." />
+      <input type="search" id="search" placeholder="organic prickly pear" />
     </form>
         <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
       <div class="product-page">
         <img src="img/prickly_pear.png" alt="prickly pear">
-        <div id="product-info">
+        <div class="product-info">
           <h4>Prickly Pear</h4>
           <p>Fresh Farms</p>
           <h5>$2.49/ea</h5>
+          <p class="stock">in-stock</p>
           <p>PRODUCE</p>
-          <p>organic</p>
-          <a href="#map_pear" data-role="button">3P</a>
+          <p>aisle 3P</p>
+          <p class="dietary">organic</p>
+          <a href="#map_pear" data-role="button" data-transition="slide">view on map</a>
         </div>
+        <p>The prickly pear plant has three different edible sections: the pad of the cactus (nopal), which can be treated like a vegetable, the petals of the flowers, which can be added to salads, and the pear (tuna), which can be treated like a fruit. They grow wild throughout the American southwest, down to South America and up to Canada. The ones you may find at a local store or farmers market will surely originate from a commercial nopal farm.</p>
+        <h5>preparation:</h5>
+        <p>cut off both ends of the fruit, carve away the thorny skin, remove the seeds, and enjoy!</p>
         <h5>ingredients:</h5>
         <p>prickly pear fruit</p>
-        <h5>description:</h5>
-        <p>The prickly pear plant has three different edible sections: the pad of the cactus (nopal), which can be treated like a vegetable, the petals of the flowers, which can be added to salads, and the pear (tuna), which can be treated like a fruit. They grow wild throughout the American southwest, down to South America and up to Canada. The ones you may find at a local store or farmers market will surely originate from a commercial nopal farm.</p>
-        <a href="#" data-role="button">similar products</a>
-        <a href="#" data-role="button">more from brand</a>
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <a href="#" data-role="button">similar products</a>
+          <a href="#" data-role="button">more from brand</a>
+        </fieldset>
       </div>
   </div><!-- /content-->
 
@@ -286,10 +291,10 @@
           <p>vegan</p>
           <a href="#map_ale" data-role="button">Aisle 1S</a>
         </div>
-        <h5>ingredients:</h5>
-        <p>cream ale, 5.00% ABV</p>
         <h5>description:</h5>
         <p>Our Summer Solstice Seasonal Ale is a slightly sweet, malty session beer with a creamy mouth feel and clean finish. With hints of caramel in the nose and a touch of spice, it’s become affectionately known as “cream soda for adults”. The unique flavors and superior drinkability make for the ultimate refreshment on a hot summer day.</p>
+        <h5>ingredients:</h5>
+        <p>cream ale, 5.00% ABV</p>
         <a href="#" data-role="button">similar products</a>
         <a href="#" data-role="button">more from brand</a>
       </div>
@@ -505,12 +510,13 @@
             <div id="left-side">
               <h4><a href="#seasalt" data-transition="slide">Sea Salt Potato Chips</a></h4>
               <p>Kettle Brand</p>
-              <p>ORG</p>
+              <p class="dietary">organic</p>
             </div>
             <div id="right-side">
               <h5>$5.99/ea</h5>
               <p>GROCERY</p>
-              <a href="#map_chips" data-role="button">14G</a>
+              <p>aisle 14G</p>
+              <a href="#map_chips" data-role="button" data-transition="slide">view on map</a>
             </div>
           </div>
 
@@ -519,12 +525,13 @@
             <div id="left-side">
               <h4><a href="#" data-transition="slide">Lime Tortilla Chips</a></h4>
               <p>Late July</p>
-              <p>ORG, Gluten Free</p>
+              <p class="dietary">organic, gluten free</p>
             </div>
             <div id="right-side">
               <h5>$7.99/ea</h5>
               <p>GROCERY</p>
-              <a href="#" data-role="button">8G</a>
+              <p>aisle 8G</p>
+              <a href="#" data-role="button">view on map</a>
             </div>
           </div>
 
@@ -533,12 +540,13 @@
             <div id="left-side">
               <h4><a href="#" data-transition="slide">Rice Chips</a></h4>
               <p>Lundberg Family Farms</p>
-              <p>ORG, Gluten Free, Vegan</p>
+              <p class="dietary">organic, gluten free, vegan</p>
             </div>
             <div id="right-side">
               <h5>$6.49/ea</h5>
               <p>GROCERY</p>
-              <a href="#" data-role="button">8G</a>
+              <p>aisle 8G</p>
+              <a href="#" data-role="button">view on map</a>
             </div>
           </div>
 
@@ -547,12 +555,13 @@
             <div id="left-side">
               <h4><a href="#" data-transition="slide">BBQ Potato Chips</a></h4>
               <p>Kettle Brand</p>
-              <p>ORG</p>
+              <p class="dietary">organic</p>
             </div>
             <div id="right-side">
               <h5>$5.99/ea</h5>
               <p>GROCERY</p>
-              <a href="#" data-role="button">14G</a>
+              <p>aisle 14G</p>
+              <a href="#" data-role="button">view on map</a>
             </div>
           </div>
 
@@ -561,12 +570,13 @@
             <div id="left-side">
               <h4><a href="#" data-transition="slide">Salt &amp; Pepper Potato Chips</a></h4>
               <p>Kettle Brand</p>
-              <p>ORG</p>
+              <p class="dietary">organic</p>
             </div>
             <div id="right-side">
               <h5>$5.99/ea</h5>
               <p>GROCERY</p>
-              <a href="#" data-role="button">14G</a>
+              <p>aisle 14G</p>
+              <a href="#" data-role="button">view on map</a>
             </div>
           </div>
 
