@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="apple-touch-icon" href="img/logo_icon.png">
 	<title>Gather Product Search</title>
   
@@ -25,7 +26,7 @@
 <body>
 <!--Start of first Page-->
 	<div data-role="page" data-theme="a" id="home">
-    <div data-role="header" data-position="inline" class="top">
+    <div data-role="header" data-position="fixed" class="top">
       <img src="img/settings.png" alt="cms menu">
       <h1>Grocery Store Name</h1>
     </div> <!-- /header -->
@@ -36,7 +37,7 @@
         <input data-type="search" id="pre-rendered-filterable" placeholder="type product name here" />
         <div class="ui-controlgroup ui-controlgroup-vertical ui-corner-all" data-role="controlgroup" data-filter="true" data-input="#pre-rendered-filterable" data-filter-reveal="true" data-enhanced="true">
           <div class="ui-controlgroup-controls">
-            <a href="#chips" class="ui-screen-hidden" data-role="button">chips, organic</a>
+            <a href="#chips" class="ui-screen-hidden" data-role="button">organic chips</a>
           </div>
         </div>
         <p id="act">0 active</p>
@@ -111,7 +112,7 @@
             <div id="left-side">
               <h4><a href="#pear" data-transition="slide">Prickly Pear</a></h4>
               <p>Fresh Farms</p>
-              <p>ORG</p>
+              <p class="dietary">organic</p>
             </div>
             <div id="right-side">
               <h5>$2.49/ea</h5>
@@ -122,11 +123,11 @@
           </div>
 
           <div class="product-single">
-            <a href="#ale"><img src="img/summer_beer.png" alt="summer solstice ale"></a>
+            <a href="#ale" data-transition="slide"><img src="img/summer_beer.png" alt="summer solstice ale"></a>
             <div id="left-side">
               <h4><a href="#ale" data-transition="slide">Summer Solstice Ale</a></h4>
               <p>Anderson Valley Brewing Company</p>
-              <p>Vegan</p>
+              <p class="dietary">vegan</p>
             </div>
             <div id="right-side">
               <h5>$8.99/pk</h5>
@@ -137,11 +138,11 @@
           </div>
 
           <div class="product-single">
-            <a href="#squash"><img src="img/squash.png" alt="summer squash"></a>
+            <a href="#squash" data-transition="slide"><img src="img/squash.png" alt="summer squash"></a>
             <div id="left-side">
               <h4><a href="#squash" data-transition="slide">Crooked Neck Squash</a></h4>
               <p>Burto's Valley</p>
-              <p>ORG</p>
+              <p class="dietary">organic</p>
             </div>
             <div id="right-side">
               <h5>$1.29/lb</h5>
@@ -165,8 +166,7 @@
 
 <!--Scan Page-->
 	<div data-role="page" id="scan">
-	  <div data-role="header" data-position="inline" class="top">
-      <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+	  <div data-role="header" data-position="fixed" class="top">
       <img src="img/settings.png" alt="cms menu">
       <h1>Grocery Store Name</h1>
     </div> <!-- /header -->
@@ -198,8 +198,7 @@
 
 <!--Map Page-->
 <div data-role="page" id="map">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -224,8 +223,7 @@
 
 <!--Product Page : Prickly Pear-->
 <div data-role="page" id="pear">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -235,10 +233,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
-      <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
-      </fieldset>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
       <div class="product-page">
         <img src="img/prickly_pear.png" alt="prickly pear">
@@ -269,8 +264,7 @@
 
 <!--Product Page : Summer Solstice Ale-->
 <div data-role="page" id="ale">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -280,10 +274,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
-      <fieldset data-role="controlgroup" data-type="horizontal">
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
-      </fieldset>
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
       <div class="product-page">
         <img src="img/summer_beer.png" alt="summer beer">
@@ -314,8 +305,7 @@
 
 <!--Product Page : Crooked Neck Squash-->
 <div data-role="page" id="squash">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -327,7 +317,6 @@
     </form>
       <fieldset data-role="controlgroup" data-type="horizontal">
         <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
       </fieldset>
     </div>  
       <div class="product-page">
@@ -359,8 +348,7 @@
 
 <!-- Squash Map Page-->
 <div data-role="page" id="map_squash">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -370,7 +358,7 @@
     <form>
       <input type="search" id="search" placeholder="Product name..." />
     </form>
-        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
+        <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-direction="reverse" onClick="history.go(-1);return true;">
     </div>  
     <div id="storemap">
       <img class="panzoom-elements" src="img/store_map_squash.png" width="750" height="593" alt="store map">
@@ -386,8 +374,7 @@
 
 <!-- Ale Map Page-->
 <div data-role="page" id="map_ale">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -413,8 +400,7 @@
 
 <!-- Pear Map Page-->
 <div data-role="page" id="map_pear">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -440,8 +426,7 @@
 
 <!-- Search results for Organic Chips-->
   <div data-role="page" data-theme="a" id="chips">
-    <div data-role="header" data-position="inline" class="top">
-      <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+    <div data-role="header" data-position="fixed" class="top">
       <img src="img/settings.png" alt="cms menu">
       <h1>Grocery Store Name</h1>
     </div> <!-- /header -->
@@ -449,46 +434,53 @@
     <div data-role="content"> 
        <div class="searchbar">
         <h2>search results</h2>
-        <input data-type="search" id="pre-rendered-filterable" placeholder="chips, organic" />
+        <input data-type="search" id="pre-rendered-filterable" placeholder="organic chips" />
         <p id="act">1 active</p>
         <div data-role="collapsible">
         <h3>refine search</h3>
             <fieldset data-role="controlgroup" data-type="horizontal">
               <legend>dietary need:</legend>
               <div class="diet">
-              <input type="checkbox" name="checkbox-1b" id="checkbox-1b" class="custom" checked >
-              <label for="checkbox-1b">organic</label>
+              <input type="checkbox" name="checkbox-1c" id="checkbox-1c" class="custom" checked>
+              <label for="checkbox-1c">organic</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-2b" id="checkbox-2b" class="custom">
-              <label for="checkbox-2b">vegan</label>
+              <input type="checkbox" name="checkbox-2c" id="checkbox-2c" class="custom">
+              <label for="checkbox-2c">vegan</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-3b" id="checkbox-3b" class="custom">
-              <label for="checkbox-3b">vegetarian</label>
+              <input type="checkbox" name="checkbox-3c" id="checkbox-3c" class="custom">
+              <label for="checkbox-3c">vegetarian</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-4b" id="checkbox-4b" class="custom">
-              <label for="checkbox-4b">gluten free</label>
+              <input type="checkbox" name="checkbox-4c" id="checkbox-4c" class="custom">
+              <label for="checkbox-4c">gluten free</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-5b" id="checkbox-5b" class="custom">
-              <label for="checkbox-5b">dairy free</label>
+              <input type="checkbox" name="checkbox-5c" id="checkbox-5c" class="custom">
+              <label for="checkbox-5c">dairy free</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-6b" id="checkbox-6b" class="custom">
-              <label for="checkbox-6b">sugar free</label>
+              <input type="checkbox" name="checkbox-6c" id="checkbox-6c" class="custom">
+              <label for="checkbox-6c">sugar free</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-7b" id="checkbox-7b" class="custom">
-              <label for="checkbox-7b">wheat free</label>
+              <input type="checkbox" name="checkbox-7c" id="checkbox-7c" class="custom">
+              <label for="checkbox-7c">wheat free</label>
               </div>
               <div class="diet">
-              <input type="checkbox" name="checkbox-8b" id="checkbox-8b" class="custom">
-              <label for="checkbox-8b">raw food</label>
+              <input type="checkbox" name="checkbox-8c" id="checkbox-8c" class="custom">
+              <label for="checkbox-8c">raw food</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-9c" id="checkbox-9c" class="custom">
+              <label for="checkbox-9c">GMO free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-10c" id="checkbox-10c" class="custom">
+              <label for="checkbox-10c">paleo</label>
               </div>
             </fieldset>
-          
           <div>
             <label for="select-choice-0" class="select">department:</label>
             <select name="select-choice-0" id="select-choice-0">
@@ -591,8 +583,7 @@
 
 <!--Product Page : Kettle Sea Salt Chips-->
 <div data-role="page" id="seasalt">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->
@@ -604,7 +595,6 @@
     </form>
       <fieldset data-role="controlgroup" data-type="horizontal">
         <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" class="full-width" data-direction="reverse" onClick="history.go(-1);return true;">
-        <input type="button" data-icon="arrow-r" data-iconpos="right" value="next product" class="full-width">
       </fieldset>
     </div>  
       <div class="product-page">
@@ -636,8 +626,7 @@
 
 <!-- Kettle Chips Map Page-->
 <div data-role="page" id="map_chips">
-  <div data-role="header" data-position="inline" class="top">
-    <img id="logo" src="img/Icon-60@3x.png" alt="gather logo">
+  <div data-role="header" data-position="fixed" class="top">
     <img src="img/settings.png" alt="cms menu">
     <h1>Grocery Store Name</h1>
   </div> <!-- /header -->

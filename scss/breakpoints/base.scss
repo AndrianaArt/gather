@@ -61,6 +61,11 @@ label{
 	font-size: 0.5em;
 }
 
+//back button width on product and map pages
+.halfwidth{
+	width: 50px;
+}
+
 //refine search active number
 #act{
 	position: absolute;
@@ -141,7 +146,7 @@ label{
 	float:left;
 	margin: -10px 0 0 -10px;
 	padding-right: 1em;
-	max-width: 70%;
+	max-width: 30%;
 	}
 	h4{
 		margin-top: -8px;
@@ -163,6 +168,13 @@ label{
 #right-side{
 	margin-top: -40px;
 	float: right;
+	text-align: right;
+}
+
+.dietary{
+	color: $gather-accent;
+	font-weight: 700;
+	font-style: oblique;
 }
 
 //map styles

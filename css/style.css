@@ -471,6 +471,9 @@ img {
 label {
   font-size: 0.5em; }
 
+.halfwidth {
+  width: 50px; }
+
 #act {
   position: absolute;
   z-index: 2;
@@ -529,7 +532,7 @@ label {
     float: left;
     margin: -10px 0 0 -10px;
     padding-right: 1em;
-    max-width: 70%; }
+    max-width: 30%; }
   .product-page h4 {
     margin-top: -8px;
     font-size: 1.5em;
@@ -545,7 +548,13 @@ label {
 
 #right-side {
   margin-top: -40px;
-  float: right; }
+  float: right;
+  text-align: right; }
+
+.dietary {
+  color: #501835;
+  font-weight: 700;
+  font-style: oblique; }
 
 #storemap img {
   max-width: none; }
@@ -567,16 +576,16 @@ TINY MOBILE DEVICES
 *********************/
 @media only screen and (max-width: 515px) {
   .product-single img {
-    max-width: 40%;
+    max-width: 30%;
     float: left; }
 
   #left-side {
-    width: 35%;
-    font-size: 80%; }
+    width: 30%;
+    font-size: 85%; }
 
   #right-side {
     margin-top: -30px;
-    font-size: 70%;
+    font-size: 90%;
     line-height: 20px; }
     #right-side a {
       margin-top: 25px; } }
