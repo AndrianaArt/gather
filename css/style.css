@@ -543,7 +543,7 @@ label {
     margin-top: 0px;
     color: #501835; }
 
-.product-info h4, .product-info h5, .product-info p {
+.product-info h5, .product-info p {
   line-height: .8em; }
 .product-info h5 {
   margin-bottom: 0; }

@@ -33,6 +33,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/brownies.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230371,
+		"inputAbbreviatedPath": "\/img\/brownies.png",
+		"outputAbbreviatedPath": "\/img\/brownies.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brownies2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173310,
+		"inputAbbreviatedPath": "\/img\/brownies2.png",
+		"outputAbbreviatedPath": "\/img\/brownies2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brownies3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160048,
+		"inputAbbreviatedPath": "\/img\/brownies3.png",
+		"outputAbbreviatedPath": "\/img\/brownies3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brownies4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156213,
+		"inputAbbreviatedPath": "\/img\/brownies4.png",
+		"outputAbbreviatedPath": "\/img\/brownies4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cookies.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125819,
+		"inputAbbreviatedPath": "\/img\/cookies.png",
+		"outputAbbreviatedPath": "\/img\/cookies.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cookies2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137915,
+		"inputAbbreviatedPath": "\/img\/cookies2.png",
+		"outputAbbreviatedPath": "\/img\/cookies2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cookies3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148153,
+		"inputAbbreviatedPath": "\/img\/cookies3.png",
+		"outputAbbreviatedPath": "\/img\/cookies3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dragonfruit1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -271,6 +348,17 @@
 		"initialSize": 182649,
 		"inputAbbreviatedPath": "\/img\/store_map_ale.png",
 		"outputAbbreviatedPath": "\/img\/store_map_ale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/store_map_brownies.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 328748,
+		"inputAbbreviatedPath": "\/img\/store_map_brownies.png",
+		"outputAbbreviatedPath": "\/img\/store_map_brownies.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
