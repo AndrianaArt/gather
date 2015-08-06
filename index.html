@@ -37,6 +37,7 @@
         <input data-type="search" id="pre-rendered-filterable" placeholder="type product name here" />
         <div class="ui-controlgroup ui-controlgroup-vertical ui-corner-all" data-role="controlgroup" data-filter="true" data-input="#pre-rendered-filterable" data-filter-reveal="true" data-enhanced="true">
           <div class="ui-controlgroup-controls">
+            <a href="#justbrownies" class="ui-screen-hidden" data-role="button">brownies</a>
             <a href="#brownies" class="ui-screen-hidden" data-role="button">gluten free brownies</a>
             <a href="#chips" class="ui-screen-hidden" data-role="button">organic chips</a>
           </div>
@@ -585,8 +586,8 @@
         <p>Fully baked, ready to eat. Just grab a glass of milk!</p>
         <p>Ingredients: Gluten free flour (brown rice, sweet rice, tapioca), chocolate chips (sugar, chocolate liquor, cocoa butter, butterfat, soy lecithin, vanilla), cane sugar, butter (milk), eggs, unsulphured molasses, corn starch, potato starch, pure vanilla, salt, xanthan gum, baking soda.</p>
         <fieldset data-role="controlgroup" data-type="horizontal">
-          <a href="#morebrownies" data-role="button">similar products</a>
-          <a href="#wowbrand" data-role="button">more from brand</a>
+          <a href="#morebrownies" data-role="button" data-transition="slide">similar products</a>
+          <a href="#wowbrand" data-role="button" data-transition="slide">more from brand</a>
         </fieldset>
       </div>
   </div><!-- /content-->
@@ -635,7 +636,7 @@
     <div data-role="content"> 
       <div class="searchbar">
         <form>
-        <input type="search" id="search" placeholder="choclate brownies, WOW Baking Company" />
+        <input type="search" id="search" placeholder="brownies" />
         </form>
         <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
       </div><!-- /search bar -->
@@ -721,7 +722,7 @@
     <div data-role="content"> 
        <div class="searchbar">
         <form>
-        <input type="search" id="search" placeholder="choclate brownies, WOW Baking Company" />
+        <input type="search" id="search" placeholder="WOW Baking Company" />
         </form>
         <input type="button" data-icon="arrow-l" data-iconpos="left" value="back" data-transition="slide" data-direction="reverse" onClick="history.go(-1);return true;">
       </div><!-- /search bar -->
@@ -1030,6 +1031,151 @@
     <a href="#map" id="current" class="ui-state-persist"><img src="img/map.png" alt="store map"></a>
   </div><!-- /footer-->
 </div><!-- /page-->
+
+<!-- Search results for Just Brownies-->
+  <div data-role="page" data-theme="a" id="justbrownies">
+    <div data-role="header" data-position="fixed" class="top">
+      <img src="img/settings.png" alt="cms menu">
+      <h1>Grocery Store Name</h1>
+    </div> <!-- /header -->
+    
+    <div data-role="content"> 
+      <div class="searchbar">
+        <h2>search results</h2>
+        <input data-type="search" id="pre-rendered-filterable" placeholder="brownies" />
+        <p id="act">0 active</p>
+        <div data-role="collapsible">
+        <h3>refine search</h3>
+            <fieldset data-role="controlgroup" data-type="horizontal">
+              <legend>dietary need:</legend>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-1d" id="checkbox-1d" class="custom">
+              <label for="checkbox-1d">organic</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-2d" id="checkbox-2d" class="custom">
+              <label for="checkbox-2d">vegan</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-3d" id="checkbox-3d" class="custom">
+              <label for="checkbox-3d">vegetarian</label>
+              </div>
+              <div class="diet">
+              <a href="#brownies" data-role="button">gluten free</a>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-5d" id="checkbox-5d" class="custom">
+              <label for="checkbox-5d">dairy free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-6d" id="checkbox-6d" class="custom">
+              <label for="checkbox-6d">sugar free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-7d" id="checkbox-7d" class="custom">
+              <label for="checkbox-7d">wheat free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-8d" id="checkbox-8d" class="custom">
+              <label for="checkbox-8d">raw food</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-9d" id="checkbox-9d" class="custom">
+              <label for="checkbox-9d">GMO free</label>
+              </div>
+              <div class="diet">
+              <input type="checkbox" name="checkbox-10d" id="checkbox-10d" class="custom">
+              <label for="checkbox-10d">paleo</label>
+              </div>
+            </fieldset>
+          <div>
+            <label for="select-choice-0" class="select">department:</label>
+            <select name="select-choice-0" id="select-choice-0">
+              <option value="all">all departments</option>
+              <option value="bakery">bakery</option>
+              <option value="grocery">grocery</option>
+              <option value="produce">produce</option>
+              <option value="meat">meat</option>
+              <option value="seafood">seafood</option>
+              <option value="prep-foods">prepared foods</option>
+              <option value="specialty">specialty</option>
+              <option value="coffee">coffee &amp; tea</option>
+            </select>
+          </div>
+          <input type="submit" value="SEARCH">
+          </div><!-- /collapsable -->
+        </div><!-- /search bar -->
+
+    <div class="product">
+          <div class="product-single">
+            <a href="#" data-transition="slide"><img src="img/brownies3.png" alt="classic brownies"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Classic Fudge Brownies</a></h4>
+              <p>Greyston Bakery</p>
+            </div>
+            <div id="right-side">
+              <h5>$1.99/ea</h5>
+              <p>BAKERY</p>
+              <p>aisle 2B</p>
+              <a href="#" data-role="button" data-transition="slide">view on map</a>
+            </div>
+          </div>
+          
+          <div class="product-single">
+            <a href="#" data-transition="slide"><img src="img/brownies4.png" alt="raw brownies"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Walnut Brownies</a></h4>
+              <p>Bakery Department</p>
+              <p class="dietary">raw</p>
+            </div>
+            <div id="right-side">
+              <h5>$1.29/lb</h5>
+              <p>BAKERY</p>
+              <p>aisle 1B</p>
+              <a href="#" data-role="button" data-transition="slide">view on map</a>
+            </div>
+          </div>
+
+          <div class="product-single">
+            <a href="#" data-transition="slide"><img src="img/brownies2.png" alt="amys brownies"></a>
+            <div id="left-side">
+              <h4><a href="#" data-transition="slide">Chocolate Brownies</a></h4>
+              <p>Amy's</p>
+              <p class="dietary">organic, gluten free</p>
+            </div>
+            <div id="right-side">
+              <h5>$6.99/ea</h5>
+              <p>GROCERY</p>
+              <p>aisle 6G</p>
+              <a href="#" data-role="button" data-transition="slide">view on map</a>
+            </div>
+          </div>
+          
+          <div class="product-single">
+            <a href="#brownies1" data-transition="slide"><img src="img/brownies.png" alt="wow baking brownies"></a>
+            <div id="left-side">
+              <h4><a href="#brownies1" data-transition="slide">Chocolate Brownies</a></h4>
+              <p>WOW Baking Company</p>
+              <p class="dietary">gluten free, wheat free</p>
+            </div>
+            <div id="right-side">
+              <h5>$8.99/pk</h5>
+              <p>BAKERY</p>
+              <p>aisle 2B</p>
+              <a href="#map_brownies" data-role="button" data-transition="slide">view on map</a>
+            </div>
+          </div>
+
+      </div> <!-- /product -->
+
+    </div><!-- /content-->
+
+    <div class="footer" data-role="footer" data-id="main" data-position="fixed">
+      <a href="#home" class="ui-state-persist"><img src="img/serach.png" alt="search page"></a>
+      <a href="#scan" data-transition="slide"><img src="img/barcode.png" alt="barcode scan"></a>
+      <a href="#map" data-transition="slide"><img src="img/map.png" alt="store map"></a>
+    </div><!-- /footer-->
+  </div><!-- /page more brownies-->
 
 <!-- pinch to zoom script -->
   <script>
